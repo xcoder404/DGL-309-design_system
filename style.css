@@ -1,5 +1,39 @@
-*,*::after, *::before{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --primary-color: #235a1f;
+  --secondary-color: #bfffb2;
+  --soft-cream: #fff5e1;
+  --white: #fff;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.header {
+  background-color: var(--primary-color);
+  height: 7vh;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+.header__nav-list {
+  list-style-type: none;
+  margin-right: 50px;
+}
+.header__nav-link {
+  color: var(--white);
+  text-decoration: none;
+  padding: 3px 0;
+  font-size: 1.1rem;
+}
+
+.header__nav-link:hover {
+  border-bottom: 2px solid var(--white);
 }
