@@ -17,15 +17,31 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
-/* =============== A. Header =============== */
+.container {
+  margin: 0 50px 0 400px;
+  padding-top: 130px;
+}
 
+.active-link {
+  background-color: var(--primary-color);
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: var(--secondary-color) !important;
+}
+/* =============== A. Header =============== */
 
 .header {
   background-color: var(--primary-color);
-  height: 7vh;
+  height: 70px;
   display: flex;
+  width: 100vw;
+  position: fixed;
   align-items: center;
+  z-index: 1;
   flex-direction: row-reverse;
+}
+.header__nav {
+  position: relative;
 }
 .header__nav-list {
   list-style-type: none;
@@ -44,40 +60,101 @@ body {
 
 /* =============== B. Horizontal navbar ============== */
 
-.vertical-nav{
-    height: 100vh;
-    background-color: var(--secondary-color);
-    width: 310px;
-    position: fixed;
-    padding-left:40px;
-    overflow-y: auto;
+.vertical-nav {
+  height: 100vh;
+  background-color: var(--secondary-color);
+  width: 310px;
+  position: fixed;
+  padding-left: 40px;
+  padding-top: 80px;
 }
-.vertical-nav__category{
-    margin-bottom: 10px;
-}
-
-
-.vertical-nav__category-item{
-    list-style-type: none;
-    padding: 0 15px;
+.vertical-nav__category {
+  margin-bottom: 10px;
 }
 
-.vertical-nav__category-item li{
-    transition: all .3s ease-in-out;
-    padding-top: 3px;
+.vertical-nav__category-item {
+  list-style-type: none;
+  padding: 0 15px;
 }
-.vertical-nav__category-item a{
-    text-decoration: none;
-    color: var(--blacK);
-    font-size: 1rem;
-    padding: 5px 10px;
+
+.vertical-nav__category-item li {
+  transition: all 0.3s ease-in-out;
+  padding-top: 3px;
+}
+.vertical-nav__category-item a {
+  text-decoration: none;
+  color: var(--blacK);
+  font-size: 1rem;
+  padding: 5px 10px;
+}
+
+.vertical-nav__category-item a:hover {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+/*================ C. Colors ================*/
+
+table {
+  text-align: left;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-collapse: collapse;
+  width: 100%;
 
 }
 
-.vertical-nav__category-item a:hover{
-    background-color: var(--primary-color);
-    color: var(--secondary-color);
-    padding: 5px 10px;
-    border-radius: 5px;
-    
+td {
+  vertical-align: bottom;
+}
+
+td,
+th {
+  height: 50px;
+  padding: 10px 0;
+}
+
+tr th:nth-child(3),
+tr td:nth-child(3) {
+  padding-left: 80px;
+}
+
+tr th:nth-child(2),
+tr td:nth-child(2) {
+  width: 250px;
+  max-height: 100%;
+}
+.colors-intro h1 {
+  font-size: 2.5rem;
+}
+tr td:nth-child(2) {
+  border-radius: 5px;
+}
+.swatch-1,
+.swatch-6,
+.swatch-8,
+.swatch-13 {
+  background-color: var(--primary-color);
+}
+
+.swatch-2,
+.swatch-7,
+.swatch-9 {
+  background-color: var(--soft-cream);
+}
+
+.swatch-3.swatch-10,
+.swatch-12 {
+  background-color: var(--white);
+}
+
+.swatch-4,
+.swatch-11 {
+  background-color: var(--blacK);
+}
+
+.swatch-5 {
+  background-color: var(--secondary-color);
 }
