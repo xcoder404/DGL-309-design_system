@@ -49,19 +49,17 @@ body {
     background-color: var(--secondary-color);
     width: 310px;
     position: fixed;
-    padding: 20px 0 0 40px;
+    padding-left:40px;
     overflow-y: auto;
 }
 .vertical-nav__category{
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
-.vertical-nav__category span{
-    font-size: 1.5rem;
-}
+
 
 .vertical-nav__category-item{
     list-style-type: none;
-    padding: 20px 15px;
+    padding: 0 15px;
 }
 
 .vertical-nav__category-item li{
