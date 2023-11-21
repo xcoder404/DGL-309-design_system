@@ -10,11 +10,15 @@
   --secondary-color: #bfffb2;
   --soft-cream: #fff5e1;
   --white: #fff;
+  --blacK: #000000;
 }
 
 body {
   font-family: 'Poppins', sans-serif;
 }
+
+/* =============== A. Header =============== */
+
 
 .header {
   background-color: var(--primary-color);
@@ -36,4 +40,46 @@ body {
 
 .header__nav-link:hover {
   border-bottom: 2px solid var(--white);
+}
+
+/* =============== B. Horizontal navbar ============== */
+
+.vertical-nav{
+    height: 100vh;
+    background-color: var(--secondary-color);
+    width: 310px;
+    position: fixed;
+    padding: 20px 0 0 40px;
+    overflow-y: auto;
+}
+.vertical-nav__category{
+    margin-bottom: 50px;
+}
+.vertical-nav__category span{
+    font-size: 1.5rem;
+}
+
+.vertical-nav__category-item{
+    list-style-type: none;
+    padding: 20px 15px;
+}
+
+.vertical-nav__category-item li{
+    transition: all .3s ease-in-out;
+    padding-top: 3px;
+}
+.vertical-nav__category-item a{
+    text-decoration: none;
+    color: var(--blacK);
+    font-size: 1rem;
+    padding: 5px 10px;
+
+}
+
+.vertical-nav__category-item a:hover{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 5px 10px;
+    border-radius: 5px;
+    
 }
