@@ -228,11 +228,318 @@ tr td:nth-child(2) {
   height: 200px;
   width: 200px;
 }
+
+/* =================== Spacing =================== */
+.space .container{
+  height: 2400px;
+}
+
+.space h1, h2, h3, p,ul{
+    margin-bottom: 1.2rem;
+}
+
+.space ul{
+    margin-left: 5rem;
+}
+
+.space ul li{
+    line-height: 2rem;
+}
+.space-example-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.space-example div:nth-child(5),
+.space-example div:nth-child(8),
+.space-example div:nth-child(11),
+.space-example div:nth-child(14),
+.space-example div:nth-child(17) {
+  border: 1px solid gray;
+}
+
+.space-example div:nth-child(3),
+.space-example div:nth-child(6),
+.space-example div:nth-child(9),
+.space-example div:nth-child(12),
+.space-example div:nth-child(15),
+.space-example div:nth-child(18) {
+    
+  margin-left: 2rem;
+}
+.space-example {
+  height: 200px;
+}
+.space-background {
+  background-color: var(--primary-color);
+  color: white;
+  /* text-align: center; */
+  border: none;
+  height: 25px;
+  max-width: 100%;
+}
+.mrt-0 {
+  margin-top: 0;
+}
+.mrt-1 {
+  margin-top: 0.5rem;
+}
+.mrt-2 {
+  margin-top: 0.75rem;
+}
+.mrt-3 {
+  margin-top: 1rem;
+}
+.mrt-4 {
+  margin-top: 1.5rem;
+}
+.mrt-5 {
+  margin-top: 3.5rem;
+}
+
+.mrb-0 {
+  margin-bottom: 0;
+}
+.mrb-1 {
+  margin-bottom: 0.5rem;
+}
+.mrb-2 {
+  margin-bottom: 0.75rem;
+}
+.mrb-3 {
+  margin-bottom: 1rem;
+}
+.mrb-4 {
+  margin-bottom: 1.5rem;
+}
+.mrb-5 {
+  margin-bottom: 3.5rem;
+}
+
+.mrl-0 {
+  margin-left: 0;
+}
+.mrl-1 {
+  margin-left: 0.5rem;
+}
+.mrl-2 {
+  margin-left: 0.75rem;
+}
+.mrl-3 {
+  margin-left: 1rem;
+}
+.mrl-4 {
+  margin-left: 1.5rem;
+}
+.mrl-5 {
+  margin-left: 3.5rem;
+}
+.mrr-0 {
+  margin-right: 0;
+}
+.mrr-1 {
+  margin-right: 0.5rem;
+}
+.mrr-2 {
+  margin-right: 0.75rem;
+}
+.mrr-3 {
+  margin-right: 1rem;
+}
+.mrr-4 {
+  margin-right: 1.5rem;
+}
+.mrr-5 {
+  margin-right: 3.5rem;
+}
+.mrx-0 {
+  margin: 0;
+}
+.mrx-1 {
+  margin: 0 0.5rem;
+}
+.mrx-2 {
+  margin: 0 0.75rem;
+}
+.mrx-3 {
+  margin: 0 1rem;
+}
+.mrx-4 {
+  margin: 0 1.5rem;
+}
+.mrx-5 {
+  margin: 0 3.5rem;
+}
+.mry-0 {
+  margin: 0;
+}
+.mry-1 {
+  margin: 0.5rem 0;
+}
+.mry-2 {
+  margin: 0.75rem 0;
+}
+.mry-3 {
+  margin: 1rem 0;
+}
+.mry-4 {
+  margin: 1.5rem 0;
+}
+.mry-5 {
+  margin: 3.5rem 0;
+}
+.mr-0 {
+    margin: 0;
+  }
+.mr-1 {
+    margin: .5rem;
+  }.mr-2 {
+    margin: .75rem;
+  }.mr-3 {
+    margin: 1rem;
+  }.mr-4 {
+    margin: 1.5rem;
+  }.mr-5 {
+    margin: 3.50rem;
+  }
+.pdt-0 {
+  padding-top: 0;
+}
+.pdt-1 {
+  padding-top: 0.5rem;
+}
+.pdt-2 {
+  padding-top: 0.75rem;
+}
+.pdt-3 {
+  padding-top: 1rem;
+}
+.pdt-4 {
+  padding-top: 1.5rem;
+}
+.pdt-5 {
+  padding-top: 3.5rem;
+}
+.pdr-0 {
+  padding-right: 0;
+}
+.pdr-1 {
+  padding-right: 0.5rem;
+}
+.pdr-2 {
+  padding-right: 0.75rem;
+}
+.pdr-3 {
+  padding-right: 1rem;
+}
+.pdr-4 {
+  padding-right: 1.5rem;
+}
+.pdr-5 {
+  padding-right: 3.5rem;
+}
+.pdb-0 {
+  padding-bottom: 0;
+}
+.pdb-1 {
+  padding-bottom: 0.5rem;
+}
+.pdb-2 {
+  padding-bottom: 0.75rem;
+}
+.pdb-3 {
+  padding-bottom: 1rem;
+}
+.pdb-4 {
+  padding-bottom: 1.5rem;
+}
+.pdb-5 {
+  padding-bottom: 3.5rem;
+}
+.pdl-0 {
+  padding-left: 0;
+}
+.pdl-1 {
+  padding-left: 0.5rem;
+}
+.pdl-2 {
+  padding-left: 0.75rem;
+}
+.pdl-3 {
+  padding-left: 1rem;
+}
+.pdl-4 {
+  padding-left: 1.5rem;
+}
+.pdl-5 {
+  padding-left: 3.5rem;
+}
+.pdx-0 {
+  padding: 0;
+}
+.pdx-1 {
+  padding: 0 0.5rem;
+}
+.pdx-2 {
+  padding: 0 0.75rem;
+}
+.pdx-3 {
+  padding: 0 1rem;
+}
+.pdx-4 {
+  padding: 0 1.5rem;
+}
+.pdx-5 {
+  padding: 0 3.5rem;
+}
+.pdy-0 {
+  padding: 0;
+}
+.pdy-1 {
+  padding: 0.5rem 0;
+}
+.pdy-2 {
+  padding: 0.75rem 0;
+}
+.pdy-3 {
+  padding: 1rem 0;
+}
+.pdy-4 {
+  padding: 1.5rem 0;
+}
+.pdy-5 {
+  padding: 3.5rem 0;
+}
+
+.pd-0 {
+    padding:0;
+  }
+.pd-1 {
+    padding:.5rem;
+  }.pd-2 {
+    padding:.75rem;
+  }.pd-3 {
+    padding:1rem;
+  }.pd-4 {
+    padding:1.5rem;
+  }.pd-5 {
+    padding:3.50rem;
+  }
+
+  .mr-auto{
+    margin: auto;
+  }
+
+  .pd-auto{
+    padding: auto;
+  }
+
+
 /* ================ FOOTER ==================*/
 .footer-container {
   margin-left: 310px;
   background-color: var(--primary-color);
-  height: 350px;
+  height: 380px;
   color: var(--white);
 }
 
@@ -276,6 +583,8 @@ tr td:nth-child(2) {
   margin-top: 20px;
   list-style-type: none;
 }
+
+/* =================== Media queries ================*/
 
 @media screen and (max-width: 1024px) {
   .container {
