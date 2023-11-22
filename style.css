@@ -231,10 +231,10 @@ tr td:nth-child(2) {
 
 /* =================== Spacing =================== */
 .space .container{
-  height: 2400px;
+  height: 3600px;
 }
 
-.space h1, h2, h3, p,ul{
+.space h1, h2, h3, p,ul, .space-example-container, .space-grid{
     margin-bottom: 1.2rem;
 }
 
@@ -250,20 +250,20 @@ tr td:nth-child(2) {
   grid-template-columns: repeat(3, 1fr);
 }
 
-.space-example div:nth-child(5),
-.space-example div:nth-child(8),
-.space-example div:nth-child(11),
-.space-example div:nth-child(14),
-.space-example div:nth-child(17) {
+.space-example-container div:nth-child(5),
+.space-example-container div:nth-child(8),
+.space-example-container div:nth-child(11),
+.space-example-container div:nth-child(14),
+.space-example-container div:nth-child(17) {
   border: 1px solid gray;
 }
 
-.space-example div:nth-child(3),
-.space-example div:nth-child(6),
-.space-example div:nth-child(9),
-.space-example div:nth-child(12),
-.space-example div:nth-child(15),
-.space-example div:nth-child(18) {
+.space-example-container div:nth-child(3),
+.space-example-container div:nth-child(6),
+.space-example-container div:nth-child(9),
+.space-example-container div:nth-child(12),
+.space-example-container div:nth-child(15),
+.space-example-container div:nth-child(18) {
     
   margin-left: 2rem;
 }
@@ -278,6 +278,154 @@ tr td:nth-child(2) {
   height: 25px;
   max-width: 100%;
 }
+
+/* ================= SPACE GAP =============== */
+
+
+.space-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+.gap-0{
+    gap: 0;
+}
+.gap-1{
+    gap: .5rem;
+}
+.gap-2{
+    gap: .75rem;
+}
+.gap-3{
+    gap: 1rem;
+}
+.gap-4{
+    gap:1.5rem;
+}
+.gap-5{
+    gap:3.5rem;
+}
+.row-gap-0{
+    row-gap: 0;
+}
+.row-gap-1{
+    row-gap: .5rem;
+}
+.row-gap-2{
+    row-gap: .75rem;
+}
+.row-gap-3{
+    row-gap: 1rem;
+}
+.row-gap-4{
+    row-gap:1.5rem;
+}
+.row-gap-5{
+    row-gap:3.5rem;
+}
+
+.column-gap-0{
+    column-gap: 0;
+}
+.column-gap-1{
+    column-gap: .5rem;
+}
+.column-gap-2{
+    column-gap: .75rem;
+}
+.column-gap-3{
+    column-gap: 1rem;
+}
+.column-gap-4{
+    column-gap:1.5rem;
+}
+.column-gap-5{
+    column-gap:3.5rem;
+}
+
+.space-grid .space-grid-item{
+    text-align: center;
+    border: 1px solid gray;
+    background-color: var(--primary-color);
+    color: var(--white);
+}
+
+.space-gap-example{
+    background-color: rgb(50, 50, 50);
+    color:var(--white);
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .mrt-0 {
   margin-top: 0;
 }
