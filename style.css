@@ -13,6 +13,7 @@
   --blacK: #000000;
 }
 
+
 body {
   font-family: 'Poppins', sans-serif;
 }
@@ -250,7 +251,8 @@ ul,
 .space-gap-example,
 .typography-intro h1,
 .typography-intro p,
-.typography-grid {
+.typography-grid,
+.colors-class li {
   margin-bottom: 1.2rem;
 }
 
@@ -364,7 +366,7 @@ ul,
 }
 
 .space-gap-example,
-.typography-example {
+.typography-example, .colors-example {
   background-color: rgb(50, 50, 50);
   color: var(--white);
   padding: 1rem;
@@ -635,6 +637,33 @@ ul,
   padding: auto;
 }
 
+.bg-primary{
+    background-color: var(--primary-color);
+}
+.bg-secondary{
+    background-color: var(--secondary-color);
+}
+
+.bg-soft-cream{
+    background-color: var(--soft-cream);
+}
+
+.text-primary{
+    color:var(--primary-color);
+}
+
+.text-secondary{
+    color:var(--secondary-color);
+}
+.text-soft-cream{
+    color:var(--soft-cream);
+}
+.text-light{
+    color:var(--white);
+}
+.text-dark{
+    color:var(--black);
+}
 /* ================ Typography ================ */
 
 .typography-grid {
