@@ -32,6 +32,7 @@ body {
 h1 {
   font-size: 2.5rem;
 }
+
 /* =============== A. Header =============== */
 
 .header {
@@ -70,10 +71,15 @@ h1 {
   width: 310px;
   position: fixed;
   padding-left: 40px;
-  padding-top: 80px;
+  padding-top: 50px;
 }
 .vertical-nav__category {
   margin-bottom: 10px;
+}
+
+.vertical-nav__category ul,
+.vertical-nav__category h3 {
+  margin-bottom: 0.1rem;
 }
 
 .vertical-nav__category-item {
@@ -83,12 +89,12 @@ h1 {
 
 .vertical-nav__category-item li {
   transition: all 0.3s ease-in-out;
-  padding-top: 3px;
+  padding-top: 5px;
 }
 .vertical-nav__category-item a {
   text-decoration: none;
   color: var(--blacK);
-  font-size: 1rem;
+  font-size: 0.9rem;
   padding: 5px 10px;
 }
 
@@ -241,7 +247,10 @@ p,
 ul,
 .space-example-container,
 .space-grid,
-.space-gap-example {
+.space-gap-example,
+.typography-intro h1,
+.typography-intro p,
+.typography-grid {
   margin-bottom: 1.2rem;
 }
 
@@ -354,7 +363,8 @@ ul,
   color: var(--white);
 }
 
-.space-gap-example {
+.space-gap-example,
+.typography-example {
   background-color: rgb(50, 50, 50);
   color: var(--white);
   padding: 1rem;
@@ -625,6 +635,31 @@ ul,
   padding: auto;
 }
 
+/* ================ Typography ================ */
+
+.typography-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.typography-alignment p{
+    border: 1px solid gray;
+    border-radius: 5px;
+    
+}   
+.typography-roboto {
+  font-family: 'Roboto', sans-serif;
+}
+
+.text-left {
+  text-align: left;
+}
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
 /* ================ FOOTER ==================*/
 .footer-container {
   margin-left: 310px;
