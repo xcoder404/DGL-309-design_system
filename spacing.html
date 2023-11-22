@@ -169,37 +169,100 @@
             </ul>
           </div>
           <h2>Examples</h2>
-          <div class="space-example">
-            <div class="space-example-container">
-              <div><h3>Use of class</h3></div>
-              <div><h3>Example</h3></div>
-              <div><h3>Class name</h3></div>
-              <div>Set the margin top 0.</div>
-              <div class="space-example">
-                <div class="space-background mrt-0">margin-top: 0</div>
-              </div>
-              <div>mrt-0</div>
-              <div>Set the margin left to 0.5rem.</div>
-              <div class="space-example">
-                <div class="space-background mrl-1">margin-left: .5rem</div>
-              </div>
-              <div>mrl-1</div>
-              <div>Set the margin left and right to 0.75rem.</div>
-              <div class="space-example">
-                <div class="space-background mrx-2">margin:0 .75rem</div>
-              </div>
-              <div>mrx-2</div>
-              <div>Set the padding left and right to 1rem.</div>
-              <div class="space-example">
-                <div class="space-background pdx-3">padding: 0 1rem</div>
-              </div>
-              <div>mrl-1</div>
-              <div>Set the margin to 1rem from all sides.</div>
-              <div class="space-example">
-                <div class="space-background mr-3">margin: 1rem</div>
-              </div>
-              <div>mr-3</div>
+
+          <div class="space-example-container">
+            <div><h3>Use of class</h3></div>
+            <div><h3>Example</h3></div>
+            <div><h3>Class name</h3></div>
+            <div>Set the margin top 0.</div>
+            <div class="space-example">
+              <div class="space-background mrt-0">margin-top: 0</div>
             </div>
+            <div>mrt-0</div>
+            <div>Set the margin left to 0.5rem.</div>
+            <div class="space-example">
+              <div class="space-background mrl-1">margin-left: .5rem</div>
+            </div>
+            <div>mrl-1</div>
+            <div>Set the margin left and right to 0.75rem.</div>
+            <div class="space-example">
+              <div class="space-background mrx-2">margin:0 .75rem</div>
+            </div>
+            <div>mrx-2</div>
+            <div>Set the padding left and right to 1rem.</div>
+            <div class="space-example">
+              <div class="space-background pdx-3">padding: 0 1rem</div>
+            </div>
+            <div>mrl-1</div>
+            <div>Set the margin to 1rem from all sides.</div>
+            <div class="space-example">
+              <div class="space-background mr-3">margin: 1rem</div>
+            </div>
+            <div>mr-3</div>
+          </div>
+          <div class="space-gap">
+            <h2>Gap</h2>
+            <p>
+              Gap utilities can be used directly on the parent element when
+              using display: grid or display: flex. As a result, you can stop
+              applying margin utilities to certain child inside of grids or flex
+              containers.
+            </p>
+            <div class="space-grid  gap-3">
+                <div class="space-grid-item">Item-1</div>
+                <div class="space-grid-item">Item-2</div>
+                <div class="space-grid-item">Item-3</div>
+                <div class="space-grid-item">Item-4</div>
+            </div>
+            <div class="space-gap-example">
+            <h3>HTML</h3>
+            <code>
+                &lt;div class="space-grid  gap-3"&gt;<br>
+                    &lt;div&gt;Item-1&lt;/div&gt;<br>
+                    &lt;div&gt;Item-2&lt;/div&gt;<br>
+                    &lt;div&gt;Item-3&lt;/div&gt;<br>
+                    &lt;div&gt;Item-4&lt;/div&gt;<br>
+                &lt;/div&gt;
+            </code>
+        </div>
+        <h2>Row-gap</h2>
+        <p>row-gap will apply the gap between row of grid layout.</p>
+        <div class="space-grid  row-gap-3">
+            <div class="space-grid-item">Item-1</div>
+            <div class="space-grid-item">Item-2</div>
+            <div class="space-grid-item">Item-3</div>
+            <div class="space-grid-item">Item-4</div>
+        </div>
+        <div class="space-gap-example">
+        <h3>HTML</h3>
+        <code>
+            &lt;div class="space-grid  row-gap-3"&gt;<br>
+                &lt;div&gt;Item-1&lt;/div&gt;<br>
+                &lt;div&gt;Item-2&lt;/div&gt;<br>
+                &lt;div&gt;Item-3&lt;/div&gt;<br>
+                &lt;div&gt;Item-4&lt;/div&gt;<br>
+            &lt;/div&gt;
+        </code>
+    </div>
+    <h2>Column-gap</h2>
+    <p>column-gap will apply the gap between column of grid layout.</p>
+    <div class="space-grid  column-gap-3">
+        <div class="space-grid-item">Item-1</div>
+        <div class="space-grid-item">Item-2</div>
+        <div class="space-grid-item">Item-3</div>
+        <div class="space-grid-item">Item-4</div>
+    </div>
+    <div class="space-gap-example">
+    <h3>HTML</h3>
+    <code>
+        &lt;div class="space-grid  column-gap-3"&gt;<br>
+            &lt;div&gt;Item-1&lt;/div&gt;<br>
+            &lt;div&gt;Item-2&lt;/div&gt;<br>
+            &lt;div&gt;Item-3&lt;/div&gt;<br>
+            &lt;div&gt;Item-4&lt;/div&gt;<br>
+        &lt;/div&gt;
+    </code>
+</div>
           </div>
         </div>
       </section>
