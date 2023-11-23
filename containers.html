@@ -46,7 +46,9 @@
         <div class="vertical-nav__category">
           <h3><b>Layout</b></h3>
           <ul class="vertical-nav__category-item">
-            <li><a href="containers.html"  class="active-link">Containers</a></li>
+            <li>
+              <a href="containers.html" class="active-link">Containers</a>
+            </li>
             <li><a href="#">Grid</a></li>
           </ul>
         </div>
@@ -74,11 +76,139 @@
         </div>
       </section>
       <section class="containers">
-        <div class="container">
+        <div class="container-wrap">
           <div class="containers-intro">
             <h1>Containers</h1>
+            <p class="paragraph-wrapper">
+              Containers blocks will help you to alignment your content within
+              specified width.Enter the Container Section, which is at the core
+              of our design philosophy. In our digital world, these adaptable
+              containers serve as the foundation for both structural and visual
+              harmony. Welcome to the hub of our design journey, whether you're
+              a developer figuring out our system or a designer looking for
+              consistency.
+            </p>
           </div>
-         
+          <div class="containers-content">
+            <h2>Implementation</h2>
+            <p class="paragraph-wrapper">
+              Containers are basic layout components in Immortal Design; they
+              are necessary for our default grid system. They function to keep
+              the content contained, padding it, and occasionally to center it.
+              Although Immortal Design containers allow for nesting, most
+              layouts do not require this extra layer of hierarchy.
+            </p>
+            <p class="paragraph-wrapper">
+              <strong
+                >The table below will show you how each container size
+                works.</strong
+              >
+            </p>
+            <table class="containers-table">
+              <thead>
+                <tr>
+                  <th>Container class</th>
+                  <th>Extra small 
+                    &lt;570px</th>
+                  <th>Small &ge;570px</th>
+                  <th>Medium &ge;750px</th>
+                  <th>Large &ge;980px</th>
+                  <th>X-Large &ge;1150px</th>
+                  <th>XX-Large &ge;1370px</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <code><b>.container</b></code>
+                  </td>
+                  <td>100%</td>
+                  <td>530px</td>
+                  <td>700px</td>
+                  <td>950px</td>
+                  <td>1100px</td>
+                  <td>1300px</td>
+                </tr>
+                <tr>
+                  <td>
+                    <code><b>.container-sm</b></code>
+                  </td>
+                  <td>100%</td>
+                  <td>530px</td>
+                  <td>700px</td>
+                  <td>950px</td>
+                  <td>1100px</td>
+                  <td>1300px</td>
+                </tr>
+                <tr>
+                  <td>
+                    <code><b>.container-md</b></code>
+                  </td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>700px</td>
+                  <td>950px</td>
+                  <td>1100px</td>
+                  <td>1300px</td>
+                </tr>
+                <tr>
+                  <td>
+                    <code><b>.container-lg</b></code>
+                  </td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>950px</td>
+                  <td>1100px</td>
+                  <td>1300px</td>
+                </tr>
+                <tr>
+                  <td>
+                    <code><b>.container-xl</b></code>
+                  </td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>1100px</td>
+                  <td>1300px</td>
+                </tr>
+                <tr>
+                  <td>
+                    <code><b>.container-xxl</b></code>
+                  </td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>1300px</td>
+                </tr>
+                <tr>
+                  <td>
+                    <code><b>.container-fluid</b></code>
+                  </td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                  <td>100%</td>
+                </tr>
+              </tbody>
+            </table>
+            <h2 class="mrt-4">Contianers Example:-</h2>
+            <div class="containers-example mrb-5">
+              <h3>HTML</h3>
+              <code>
+                &lt;div class="container-sm"&gt;I will keep my width 100% up to <b>570px</b> screen size&lt;/div&gt;<br>
+&lt;div class="container-md"&gt;I will keep my width 100% up to <b>750px</b> screen size&lt;/div&gt;<br>
+&lt;div class="container-lg"&gt;I will keep my width 100% up to <b>980px</b> screen size&lt;/div&gt;<br>
+&lt;div class="container-xl"&gt;I will keep my width 100% up to <b>1150px</b> screen size&lt;/div&gt;<br>
+&lt;div class="container-xxl"&gt;I will keep my width 100% up to <b>1370px</b> screen size&lt;/div&gt;<br>
+              </code>
+            </div>
+          </div>
         </div>
       </section>
     </main>
@@ -125,15 +255,6 @@
                 </svg>
               </a>
             </p>
-          </div>
-          <div class="footer-guides">
-            <h2>Guides</h2>
-            <ul>
-              <li>Getting started</li>
-              <li>Documentation</li>
-              <li>Templates</li>
-              <li>Blog</li>
-            </ul>
           </div>
         </div>
         <p>Copyright &copy; immortal design all right reserved</p>
