@@ -381,7 +381,8 @@ ul,
 .containers-example,
 .grids-example,
 .breadcrumb-example,
-.navigation-example {
+.navigation-example,
+.verticalnav-example {
   background-color: rgb(50, 50, 50);
   color: var(--white);
   padding: 1rem;
@@ -983,7 +984,7 @@ ul,
     display: flex;
     padding: 15px 5px;
     justify-content: space-between;
-    border: 1px solid gainsboro;
+    border: 1px solid rgb(193, 193, 193);
 }
 .navigation-list{
   list-style-type: none;
@@ -993,6 +994,11 @@ ul,
   text-decoration: none;
   color: #007bff;
   padding: 15px;
+}
+
+.navigation-list a:hover{
+  color:#001eff;
+  text-decoration: underline;
 }
 
 .navigation-links{
@@ -1010,7 +1016,7 @@ padding: 15px 5px;
 }
 .navigation-search input{
   outline:none;
-  border: 1px solid gainsboro;
+  border: 1px solid rgb(193, 193, 193);
   width: 290px;
   padding: 15px 15px;
   font-family: 'Poppins', sans-serif;
@@ -1025,6 +1031,42 @@ padding: 15px 5px;
   justify-content: flex-end;
 }
 
+/* ============== VERTICAL NAVIGATION BAR ================ */
+
+.verticalnav-demo{
+  max-width: 350px;
+  padding:15px;
+  
+  border: 1px solid rgb(193, 193, 193);
+}
+
+.verticalnav-list{
+  list-style-type: none;
+  padding-left: 30px;
+}
+.verticalnav-list li{
+  padding: 10px 5px;
+}
+.verticalnav-list a{
+  text-decoration: none;
+ color:#007bff;
+}
+
+.verticalnav-list a:hover{
+  color:#001eff;
+  text-decoration: underline;
+}
+.verticalnav-demo input{
+  outline: none;
+  border: 1px solid rgb(193, 193, 193);
+  padding: 10px 5px;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+}
+
+.verticalnav-right{
+  margin-left: auto;
+}
 
 /* ================ FOOTER ==================*/
 .footer-container {
