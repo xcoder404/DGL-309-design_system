@@ -379,7 +379,8 @@ ul,
 .images-grid div:nth-child(18),
 .images-grid div:nth-child(21),
 .containers-example,
-.grids-example {
+.grids-example,
+.breadcrumb-example {
   background-color: rgb(50, 50, 50);
   color: var(--white);
   padding: 1rem;
@@ -907,6 +908,32 @@ ul,
   grid-row: span 2;
 }
 
+
+/* ================= BREADCRUMBS ============== */
+
+
+.breadcrumb-links {
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+.breadcrumb-links a {
+  text-decoration: none;
+  color: #007bff; 
+}
+
+.breadcrumb-links a:hover {
+  text-decoration: underline;
+}
+
+.breadcrumb-links .separator {
+  margin: 0 5px;
+  color: #777; 
+}
+
+.breadcrumb-links .current-page {
+  color: #555; 
+}
 /* ================ FOOTER ==================*/
 .footer-container {
   margin-left: 310px;
