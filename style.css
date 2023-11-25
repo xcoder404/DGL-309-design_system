@@ -1063,7 +1063,8 @@ ul,
 }
 /* =================== ACCORDION ================= */
 
-.accordion-label {
+.accordion-label,
+.accordion-arrow {
   display: flex;
   align-items: center;
 
@@ -1075,11 +1076,13 @@ ul,
   border-bottom: none;
 }
 
-.accordion-item .accordion-label:nth-of-type(1) {
+.accordion-item .accordion-label:nth-of-type(1) ,
+  .accordion-item .accordion-arrow:nth-of-type(1) {
   border-radius: 5px 5px 0 0;
 }
 
-.accordion-item .accordion-label:last-of-type {
+.accordion-item .accordion-label:last-of-type,
+.accordion-item .accordion-arrow:last-of-type {
   border-radius: 0 0 5px 5px;
   border-bottom: 1px solid rgb(193, 193, 193);
 }
@@ -1104,8 +1107,8 @@ ul,
   height: auto;
 }
 
-.accordion-label::before {
-  content: '+';
+.accordion-label::before,
+.accordion-arrow::before {
   position: absolute;
   margin-left: 450px;
   transform: rotate(-90deg);
@@ -1115,26 +1118,41 @@ ul,
   border-radius: 5px;
 }
 
-input[type='checkbox']:checked + .accordion-label::before {
+.accordion-label::before {
+  content: '+';
+}
+
+.accordion-arrow::before {
+  content: '>';
+  transform: rotate(90deg);
+  
+}
+input[type='checkbox']:checked + .accordion-arrow::before {
+  transform: rotate(-90deg);
+}
+
+input[type='checkbox']:checked + .accordion-label::before{
   transform: rotate(45deg);
 }
 
-input[type='checkbox']:checked + .accordion-label + .accordion-para {
+input[type='checkbox']:checked + .accordion-label + .accordion-para,
+input[type='checkbox']:checked + .accordion-arrow + .accordion-para {
   max-height: 1000px;
 }
 
-input[type='checkbox']:checked + .accordion-label {
+input[type='checkbox']:checked + .accordion-label,
+input[type='checkbox']:checked + .accordion-arrow {
   border-bottom: 1px solid rgb(193, 193, 193);
 }
 
-
-input[type='checkbox']:last-of-type:checked + .accordion-label:last-of-type {
+input[type='checkbox']:last-of-type:checked + .accordion-label:last-of-type,
+input[type='checkbox']:last-of-type:checked + .accordion-arrow:last-of-type {
   border-radius: 0;
 }
 
-input[type='checkbox']:last-of-type:checked ~ .accordion-para{
+input[type='checkbox']:last-of-type:checked ~ .accordion-para {
   border-bottom: 1px solid rgb(193, 193, 193);
-  border-radius:0 0 5px 5px;
+  border-radius: 0 0 5px 5px;
 }
 
 /* ================ FOOTER ==================*/
@@ -1338,5 +1356,12 @@ input[type='checkbox']:last-of-type:checked ~ .accordion-para{
   }
   .navigation-search input {
     width: 100px;
+  }
+
+  .accordion-label {
+    width: 400px;
+  }
+  .accordion-label::before {
+    margin-left: 350px;
   }
 }
