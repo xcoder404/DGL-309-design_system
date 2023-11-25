@@ -16,7 +16,7 @@
 
     <link rel="stylesheet" href="style.css" />
 
-    <title>Colors</title>
+    <title>Accordions</title>
   </head>
   <body>
     <header class="header">
@@ -37,7 +37,7 @@
         <div class="vertical-nav__category">
           <h3><b>Foundations</b></h3>
           <ul class="vertical-nav__category-item">
-            <li><a href="index.html" class="active-link">Colors</a></li>
+            <li><a href="index.html">Colors</a></li>
             <li><a href="images.html">Images</a></li>
             <li><a href="spacing.html">Spacing</a></li>
             <li><a href="typography.html">Typography</a></li>
@@ -62,7 +62,7 @@
         <div class="vertical-nav__category">
           <h3><b>Components</b></h3>
           <ul class="vertical-nav__category-item">
-            <li><a href="accordion.html">Accordions</a></li>
+            <li><a href="accordion.html" class="active-link">Accordions</a></li>
             <li><a href="#">Buttons</a></li>
             <li><a href="#">Cards</a></li>
             <li><a href="#">Carousel</a></li>
@@ -73,162 +73,118 @@
           </ul>
         </div>
       </section>
-      <section class="colors">
+      <section class="accordion">
         <div class="container-wrap">
-          <div class="colors-intro">
-            <h1>Colors</h1>
+          <div class="accordion-intro">
+            <h1>Accordions</h1>
+            <p class="paragraph-wrapper">
+              The Accordion Section in our Immortal Design System is a classy
+              and adaptable feature. It provides an elegant method of arranging
+              and presenting content, drawing inspiration from the musical
+              instrument. Information can be easily expanded and collapsed by
+              users, resulting in a dynamic interface yet easy to use.
+            </p>
           </div>
-          <div class="colors-content">
-            <table class="colors-table">
-              <tr>
-                <th colspan="2">Description</th>
-                <th>Swatch</th>
-                <th>Class</th>
-              </tr>
-              <tr>
-                <td colspan="2">Body:- background color-1</td>
-                <td class="swatch-1"></td>
-                <td>bg-primary (#235a1f)</td>
-              </tr>
-              <tr>
-                <td colspan="2">Body:- background color-2</td>
-                <td class="swatch-2"></td>
-                <td>bg-soft-cream (#fff5e1)</td>
-              </tr>
-              <tr>
-                <td colspan="2">Body:- foreground color-1</td>
-                <td class="swatch-3"></td>
-                <td>text-light (#fff)</td>
-              </tr>
-              <tr>
-                <td colspan="2">Body:- foreground color-2</td>
-                <td class="swatch-4"></td>
-                <td>text-dark (#000000)</td>
-              </tr>
+          <div class="accordion-content mry-5">
+            <div class="accordion-item mry-5">
 
-              <tr>
-                <td colspan="2">Buttons:- background color-1</td>
-                <td class="swatch-5"></td>
-                <td>bg-secondary (#bfffb2)</td>
-              </tr>
-              <tr>
-                <td colspan="2">Buttons:- background color-2</td>
-                <td class="swatch-6"></td>
-                <td>bg-primary (#235a1f)</td>
-              </tr>
-              <tr>
-                <td colspan="2">Buttons:- background color-3</td>
-                <td class="swatch-7"></td>
-                <td>bg-soft-cream (#fff5e1)</td>
-              </tr>
-              <tr>
-                <td colspan="2">Buttons:- foreground color-1</td>
-                <td class="swatch-8"></td>
-                <td>text-primary (#235a1f)</td>
-              </tr>
-              <tr>
-                <td colspan="2">Buttons:- foreground color-2</td>
-                <td class="swatch-9"></td>
-                <td>text-soft-cream (#fff5e1)</td>
-              </tr>
-              <tr>
-                <td colspan="2">Buttons:- foreground color-3</td>
-                <td class="swatch-10"></td>
-                <td>text-light (#fff)</td>
-              </tr>
-              <tr>
-                <td colspan="2">Heading and Text:- foreground color-1</td>
-                <td class="swatch-11"></td>
-                <td>text-dark (#000000)</td>
-              </tr>
-              <tr>
-                <td colspan="2">Heading and Text:- foreground color-2</td>
-                <td class="swatch-12"></td>
-                <td>text-light (#fff)</td>
-              </tr>
-              <tr>
-                <td colspan="2">Heading and Text:- foreground color-3</td>
-                <td class="swatch-13"></td>
-                <td>text-primary (#235a1f)</td>
-              </tr>
-            </table>
-            <ul class="colors-class">
-              <h2>Classes to implement colors</h2>
-              <h3>Background colors:-</h3>
-              <li><b>bg-primary</b> :- Primary background color</li>
-              <div class="colors-example mrb-4 bg-primary">
-                <h3>HTML</h3>
-
-                <code>
-                  &lt;body class="bg-primary"&gt;I have a dark green
-                  background.&lt;/body&gt;
-                </code>
+              <input type="checkbox" id="accordion1" />
+              <label class="accordion-label" for="accordion1">Accordion #1</label>
+              <div class="accordion-para">
+                <p class="mry-3">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Distinctio ipsum ad cumque, exercitationem laboriosam, earum
+                  ipsam asperiores nulla reprehenderit nam impedit minus, sit
+                  blanditiis cupiditate eaque! Quam, soluta illo amet quibusdam
+                  magni delectus aut! Mollitia, quos a.
+                </p>
               </div>
-              <li><b>bg-secondary</b> :- Secondary background color</li>
-              <div class="colors-example mrb-4 bg-secondary text-dark">
-                <h3>HTML</h3>
-
-                <code>
-                  &lt;body class="bg-secondary"&gt;I have a light green
-                  background.&lt;/body&gt;
-                </code>
+              <input type="checkbox" id="accordion2" />
+              <label class="accordion-label" for="accordion2">Accordion #2</label>
+              <div class="accordion-para">
+                <p class="mry-3">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Distinctio ipsum ad cumque, exercitationem laboriosam, earum
+                  ipsam asperiores nulla reprehenderit nam impedit minus, sit
+                  blanditiis cupiditate eaque! Quam, soluta illo amet quibusdam
+                  magni delectus aut! Mollitia, quos a.
+                </p>
               </div>
-              <li><b>bg-soft-cream</b> :- Soft cream background color</li>
-              <div class="colors-example mrb-4 bg-soft-cream text-dark">
-                <h3>HTML</h3>
-
-                <code>
-                  &lt;body class="bg-secondary"&gt;I have a soft cream
-                  background.&lt;/body&gt;
-                </code>
+              <input type="checkbox" id="accordion3" />
+              <label class="accordion-label" for="accordion3">Accordion #3</label>
+              <div class="accordion-para">
+                <p class="mry-3">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Distinctio ipsum ad cumque, exercitationem laboriosam, earum
+                  ipsam asperiores nulla reprehenderit nam impedit minus, sit
+                  blanditiis cupiditate eaque! Quam, soluta illo amet quibusdam
+                  magni delectus aut! Mollitia, quos a.
+                </p>
               </div>
-              <h3>Foreground colors:-</h3>
-              <li><b>text-primary</b> :- Dark green text color</li>
-              <div class="colors-example mrb-4 bg-secondary text-primary">
-                <h3>HTML</h3>
-
-                <code>
-                  &lt;body class="bg-secondary"&gt;I have a dark green text
-                  color.&lt;/body&gt;
-                </code>
+              <input type="checkbox" id="accordion4" />
+              <label class="accordion-label" for="accordion4">Accordion #4</label>
+              <div class="accordion-para">
+                <p class="mry-3">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Distinctio ipsum ad cumque, exercitationem laboriosam, earum
+                  ipsam asperiores nulla reprehenderit nam impedit minus, sit
+                  blanditiis cupiditate eaque! Quam, soluta illo amet quibusdam
+                  magni delectus aut! Mollitia, quos a.
+                </p>
               </div>
-              <li><b>text-secondary</b> :- Light green text color</li>
-              <div class="colors-example mrb-4 bg-primary text-secondary">
-                <h3>HTML</h3>
+            </div>
+            <div class="accordion-example">
+              <h3>HTML</h3>
+              <code>
+               &lt;div class="accordion-item"&gt;<br>
 
-                <code>
-                  &lt;body class="bg-secondary"&gt;I have a dark green text
-                  color.&lt;/body&gt;
-                </code>
-              </div>
-              <li><b>text-soft-cream</b> :- Soft cream text color</li>
-              <div class="colors-example mrb-4 bg-primary text-soft-cream">
-                <h3>HTML</h3>
-
-                <code>
-                  &lt;body class="bg-secondary"&gt;I have a soft cream text
-                  color.&lt;/body&gt;
-                </code>
-              </div>
-              <li><b>text-light</b> :- White text color</li>
-              <div class="colors-example mrb-4 bg-primary text-light">
-                <h3>HTML</h3>
-
-                <code>
-                  &lt;body class="text-light"&gt;I have a white
-                  text color.&lt;/body&gt;
-                </code>
-              </div>
-              <li><b>text-secondary</b> :- Secondary background color</li>
-              <div class="colors-example mrb-4 bg-secondary text-dark">
-                <h3>HTML</h3>
-
-                <code>
-                  &lt;body class="text-secondary"&gt;I have a black
-                  text color.&lt;/body&gt;
-                </code>
-              </div>
-            </ul>
+              &lt;input type="checkbox" id="accordion1" /&gt;<br>
+              &lt;label class="accordion-label" for="accordion1"&gt;Accordion #1&lt;/label&gt;<br>
+              &lt;div class="accordion-para"&gt;<br>
+                &lt;p class="mry-3"&gt;<br>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Distinctio ipsum ad cumque, exercitationem laboriosam, earum
+                  ipsam asperiores nulla reprehenderit nam impedit minus, sit
+                  blanditiis cupiditate eaque! Quam, soluta illo amet quibusdam
+                  magni delectus aut! Mollitia, quos a.
+                &lt;/p&gt;<br>
+              &lt;/div&gt;<br>
+              &lt;input type="checkbox" id="accordion2" /&gt;<br>
+              &lt;label class="accordion-label" for="accordion2"&gt;Accordion #2&lt;/label&gt;<br>
+              &lt;div class="accordion-para"&gt;<br>
+                &lt;p class="mry-3"&gt;<br>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Distinctio ipsum ad cumque, exercitationem laboriosam, earum
+                  ipsam asperiores nulla reprehenderit nam impedit minus, sit
+                  blanditiis cupiditate eaque! Quam, soluta illo amet quibusdam
+                  magni delectus aut! Mollitia, quos a.
+                &lt;/p&gt;<br>
+              &lt;/div&gt;<br>
+              &lt;input type="checkbox" id="accordion3" /&gt;<br>
+              &lt;label class="accordion-label" for="accordion3"&gt;Accordion #3&lt;/label&gt;<br>
+              &lt;div class="accordion-para"&gt;<br>
+                &lt;p class="mry-3"&gt;<br>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Distinctio ipsum ad cumque, exercitationem laboriosam, earum
+                  ipsam asperiores nulla reprehenderit nam impedit minus, sit
+                  blanditiis cupiditate eaque! Quam, soluta illo amet quibusdam
+                  magni delectus aut! Mollitia, quos a.
+                &lt;/p&gt;<br>
+              &lt;/div&gt;<br>
+              &lt;input type="checkbox" id="accordion4" /&gt;<br>
+              &lt;label class="accordion-label" for="accordion4"&gt;Accordion #4&lt;/label&gt;<br>
+              &lt;div class="accordion-para"&gt;<br>
+                &lt;p class="mry-3"&gt;<br>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Distinctio ipsum ad cumque, exercitationem laboriosam, earum
+                  ipsam asperiores nulla reprehenderit nam impedit minus, sit
+                  blanditiis cupiditate eaque! Quam, soluta illo amet quibusdam
+                  magni delectus aut! Mollitia, quos a.
+                &lt;/p&gt;<br>
+              &lt;/div&gt;<br>
+            &lt;/div&gt;<br>
+              </code>
+            </div>
           </div>
         </div>
       </section>
@@ -277,7 +233,6 @@
               </a>
             </p>
           </div>
-
         </div>
         <p>Copyright &copy; immortal design all right reserved</p>
       </div>
