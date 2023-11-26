@@ -36,6 +36,15 @@ h1 {
 .paragraph-wrapper {
   max-width: 50%;
 }
+
+.example-header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.copy-icon{
+  cursor: pointer;
+}
 /* =============== A. Header =============== */
 
 .header {
