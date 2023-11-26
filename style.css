@@ -1372,6 +1372,46 @@ input[type='checkbox']:last-of-type:checked ~ .accordion-para {
 .carousel-nav a:hover{
   background-color: rgba(255,255,255,0.6);
 }
+
+/* ================ DROPDOWN ============== */
+.dropdown-select{
+  max-width: 16.5%;
+}
+.dropdown-btn{
+  padding-right: 40px;
+  padding-left: 40px;
+  width: 100%;
+}
+
+.dropdown-rotate{
+  
+  transform: rotate(-90deg);
+  display: inline-block;
+}
+
+.dropdown-options{
+  display: none;
+}
+
+.dropdown-list{
+  list-style: none;
+  max-width: 100%;
+  
+  padding: 10px;
+  background-color: var(--secondary-color);
+  border-radius: 5px;
+  
+}
+
+.dropdown-list li{
+padding: 5px 0;
+}
+.dropdown-list a{
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+
 /* ================ FOOTER ==================*/
 .footer-container {
   margin-left: 310px;
