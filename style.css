@@ -1027,25 +1027,22 @@ ul,
   justify-content: flex-end;
 }
 
-.navigation-block{
-display: block;
 .navigation-block {
   display: block;
 }
 
-.navigation-display ul{
+.navigation-display ul {
   margin-bottom: 0;
 }
-.navigation-display .navigation-list{
-  border:unset;
+.navigation-display .navigation-list {
+  border: unset;
   padding: 0px 5px;
 }
 
-.navigation-display .navigation-list li{
+.navigation-display .navigation-list li {
   padding: 10px 0;
 }
-.navigation-display .navigation-list a{
-  padding:0;
+.navigation-display .navigation-list a {
   padding: 0;
 }
 /* ============== VERTICAL NAVIGATION BAR ================ */
@@ -1110,7 +1107,7 @@ display: block;
   border-radius: 0 0 5px 5px;
   border-bottom: 1px solid rgb(193, 193, 193);
 }
-.accordion-content input[type='checkbox'] ,
+.accordion-content input[type='checkbox'],
 .navigation-content input[type='checkbox'],
 .verticalnav input[type='checkbox'] {
   display: none;
@@ -1144,9 +1141,8 @@ display: block;
   border-radius: 5px;
 }
 
-.navigation-toggle::before{
-  
-  margin-left:1000px;
+.navigation-toggle::before {
+  margin-left: 1000px;
 }
 .accordion-label::before {
   content: '+';
@@ -1155,13 +1151,11 @@ display: block;
 .accordion-arrow::before {
   content: '>';
   transform: rotate(90deg);
-  
 }
 
-.navigation-toggle{
-  padding:20px 15px;
+.navigation-toggle {
+  padding: 20px 15px;
   width: 100%;
-  
 }
 .navigation-toggle::before {
   content: '\2630';
@@ -1176,7 +1170,7 @@ input[type='checkbox']:checked + .accordion-arrow::before {
   transform: rotate(-90deg);
 }
 
-input[type='checkbox']:checked + .accordion-label::before{
+input[type='checkbox']:checked + .accordion-label::before {
   transform: rotate(45deg);
 }
 
@@ -1295,7 +1289,7 @@ input[type='checkbox']:last-of-type:checked ~ .accordion-para {
   .navigation-search input {
     font-size: 0.9rem;
   }
-  .navigation-toggle::before{
+  .navigation-toggle::before {
     margin-left: 550px;
   }
 }
@@ -1314,7 +1308,7 @@ input[type='checkbox']:last-of-type:checked ~ .accordion-para {
     width: 100vw;
     position: fixed;
     top: 50px;
-    z-index: 1;
+    z-index: 2;
   }
 
   #menuToggle:checked + .toggle-btn + .vertical-nav {
