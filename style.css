@@ -396,7 +396,8 @@ ul,
 .accordion-example,
 .buttons-example,
 .cards-example,
-.carousel-example {
+.carousel-example,
+.dropdown-example {
   background-color: rgb(50, 50, 50);
   color: var(--white);
   padding: 1rem;
@@ -1374,13 +1375,11 @@ input[type='checkbox']:last-of-type:checked ~ .accordion-para {
 }
 
 /* ================ DROPDOWN ============== */
-.dropdown-select{
-  max-width: 16.5%;
-}
+
 .dropdown-btn{
   padding-right: 40px;
   padding-left: 40px;
-  width: 100%;
+  /* width: 100%; */
 }
 
 .dropdown-rotate{
@@ -1395,20 +1394,26 @@ input[type='checkbox']:last-of-type:checked ~ .accordion-para {
 
 .dropdown-list{
   list-style: none;
-  max-width: 100%;
-  
+  max-width: 16.5%;
   padding: 10px;
   background-color: var(--secondary-color);
   border-radius: 5px;
-  
 }
+.dropdown-list-border{
+  border:2px solid var(--primary-color);
+  background-color: var(--white);
 
+}
 .dropdown-list li{
 padding: 5px 0;
 }
 .dropdown-list a{
   text-decoration: none;
   color: var(--primary-color);
+}
+
+.dropdown-list a:hover{
+  border-bottom: 2px solid var(--primary-color);
 }
 
 
@@ -1528,6 +1533,9 @@ padding: 5px 0;
   .card-button .btn{
 padding: 5px 15px;
   }
+  .dropdown-list{
+    max-width: 29.6%;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -1580,6 +1588,10 @@ padding: 5px 15px;
 
   .card-vertical{
     gap:0;
+  }
+
+  .dropdown-list{
+    max-width: 26.3%;
   }
 }
 
@@ -1673,5 +1685,9 @@ padding: 5px 15px;
   .card-demo .card-content{
   margin: 20px auto;
 
+  }
+
+  .dropdown-list{
+    max-width: 43.2%;
   }
 }

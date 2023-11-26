@@ -88,16 +88,163 @@
             </p>
           </div>
           <div class="dropdown-content">
+            <h2>Standard dropdown button</h2>
             <div class="dropdown-select">
-                <button type="button" class="dropdown-btn btn btn-primary pdx-5" onclick="toggleDropdown(this)">Dropdown <span class="dropdown-rotate">&lt;</span></button>
-                <div class="dropdown-options">
-                    <ul class="dropdown-list">
-                        <li><a href="#">Item #1</a></li>
-                        <li><a href="#">Item #2</a></li>
-                        <li><a href="#">Item #3</a></li>
-                    </ul>
-                </div>
+              <button
+                type="button"
+                class="dropdown-btn btn btn-primary"
+                onclick="toggleDropdown(this)">
+                Dropdown <span class="dropdown-rotate">&lt;</span>
+              </button>
+              <div class="dropdown-options">
+                <ul class="dropdown-list">
+                  <li><a href="#">Item #1</a></li>
+                  <li><a href="#">Item #2</a></li>
+                  <li><a href="#">Item #3</a></li>
+                </ul>
+              </div>
             </div>
+            <div class="dropdown-example mry-5">
+              <div class="example-header">
+                <h3>HTML</h3>
+                <div class="copy-icon" onclick="copyToClipboard()">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-clipboard"
+                    viewBox="0 0 16 16">
+                    <path
+                      d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1z" />
+                    <path
+                      d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0z" />
+                  </svg>
+                </div>
+              </div>
+              <code>
+                &lt;div class="dropdown-select"&gt;<br />
+                &lt;button type="button" class="dropdown-btn btn btn-primary
+                pdx-5" onclick="toggleDropdown(this)"&gt;<br />
+                Dropdown &lt;span
+                class="dropdown-rotate"&gt;&lt;&lt;/span&gt;<br />
+                &lt;/button&gt;<br />
+                &lt;div class="dropdown-options"&gt;<br />
+                &lt;ul class="dropdown-list"&gt;<br />
+                &lt;li&gt;&lt;a href="#"&gt;Item #1&lt;/a&gt;&lt;/li&gt;<br />
+                &lt;li&gt;&lt;a href="#"&gt;Item #2&lt;/a&gt;&lt;/li&gt;<br />
+                &lt;li&gt;&lt;a href="#"&gt;Item #3&lt;/a&gt;&lt;/li&gt;<br />
+                &lt;/ul&gt;<br />
+                &lt;/div&gt;<br />
+                &lt;/div&gt;<br />
+              </code>
+            </div>
+            <h2>Dropdown button with border</h2>
+            <div class="dropdown-select">
+              <button
+                type="button"
+                class="dropdown-btn btn btn-border-dark"
+                onclick="toggleDropdown(this)">
+                Dropdown <span class="dropdown-rotate">&lt;</span>
+              </button>
+              <div class="dropdown-options">
+                <ul class="dropdown-list">
+                  <li><a href="#">Item #1</a></li>
+                  <li><a href="#">Item #2</a></li>
+                  <li><a href="#">Item #3</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="dropdown-example mry-5">
+              <div class="example-header">
+                <h3>HTML</h3>
+                <div class="copy-icon" onclick="copyToClipboard()">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-clipboard"
+                    viewBox="0 0 16 16">
+                    <path
+                      d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1z" />
+                    <path
+                      d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0z" />
+                  </svg>
+                </div>
+              </div>
+              <code>
+                &lt;div class="dropdown-select"&gt;<br />
+                &lt;button type="button" class="dropdown-btn btn btn-border-dark
+                pdx-5" onclick="toggleDropdown(this)"&gt;<br />
+                Dropdown &lt;span
+                class="dropdown-rotate"&gt;&lt;&lt;/span&gt;<br />
+                &lt;/button&gt;<br />
+                &lt;div class="dropdown-options"&gt;<br />
+                &lt;ul class="dropdown-list"&gt;<br />
+                &lt;li&gt;&lt;a href="#"&gt;Item #1&lt;/a&gt;&lt;/li&gt;<br />
+                &lt;li&gt;&lt;a href="#"&gt;Item #2&lt;/a&gt;&lt;/li&gt;<br />
+                &lt;li&gt;&lt;a href="#"&gt;Item #3&lt;/a&gt;&lt;/li&gt;<br />
+                &lt;/ul&gt;<br />
+                &lt;/div&gt;<br />
+                &lt;/div&gt;<br />
+              </code>
+            </div>
+            <h2>Dropdown list with border</h2>
+            <p class="paragraph-wrapper">
+                Add <b>".dropdown-list-border"</b> class to <b>ul</b> element to get border around list.
+            </p>
+            <div class="dropdown-select">
+                <button
+                  type="button"
+                  class="dropdown-btn btn btn-primary"
+                  onclick="toggleDropdown(this)">
+                  Dropdown <span class="dropdown-rotate">&lt;</span>
+                </button>
+                <div class="dropdown-options">
+                  <ul class="dropdown-list dropdown-list-border">
+                    <li><a href="#">Item #1</a></li>
+                    <li><a href="#">Item #2</a></li>
+                    <li><a href="#">Item #3</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="dropdown-example mry-5">
+                <div class="example-header">
+                  <h3>HTML</h3>
+                  <div class="copy-icon" onclick="copyToClipboard()">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-clipboard"
+                      viewBox="0 0 16 16">
+                      <path
+                        d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1z" />
+                      <path
+                        d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0z" />
+                    </svg>
+                  </div>
+                </div>
+                <code>
+                  &lt;div class="dropdown-select"&gt;<br>
+                      &lt;button
+                        type="button"
+                        class="dropdown-btn btn btn-primary pdx-5"
+                        onclick="toggleDropdown(this)"&gt;<br>
+                        Dropdown &lt;span class="dropdown-rotate"&gt;&lt;&lt;/span&gt;<br>
+                      &lt;/button&gt;<br>
+                      &lt;div class="dropdown-options"&gt;<br>
+                        &lt;ul class="dropdown-list dropdown-list-border"&gt;<br>
+                          &lt;li&gt;&lt;a href="#"&gt;Item #1&lt;/a&gt;&lt;/li&gt;<br>
+                          &lt;li&gt;&lt;a href="#"&gt;Item #2&lt;/a&gt;&lt;/li&gt;<br>
+                          &lt;li&gt;&lt;a href="#"&gt;Item #3&lt;/a&gt;&lt;/li&gt;<br>
+                        &lt;/ul&gt;<br>
+                      &lt;/div&gt;<br>
+                    &lt;/div&gt;<br>
+                </code>
+              </div>
           </div>
         </div>
       </section>
