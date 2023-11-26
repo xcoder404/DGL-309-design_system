@@ -99,152 +99,250 @@
               clear and easy.
             </p>
             <div class="pagination-nav mrt-5">
-                <nav class="pagination-navbar">
-                    <ul class="pagination-list">
-                        <li class="pagination-links"><a href="#">Previous</a></li>
-                        <li class="pagination-links"><a href="#">1</a></li>
-                        <li class="pagination-links"><a href="#">2</a></li>
-                        <li class="pagination-links"><a href="#">3</a></li>
-                        <li class="pagination-links"><a href="#">4</a></li>
-                        <li class="pagination-links"><a href="#">5</a></li>
-    
-                        <li class="pagination-links"><a href="#">Next</a></li>
-                    </ul>
-                </nav>
-              </div>
-              <div class="breadcrumb-example mry-5">
+              <nav class="pagination-navbar">
+                <ul class="pagination-list">
+                  <li class="pagination-links"><a href="#">Previous</a></li>
+                  <li class="pagination-links"><a href="#">1</a></li>
+                  <li class="pagination-links"><a href="#">2</a></li>
+                  <li class="pagination-links"><a href="#">3</a></li>
+                  <li class="pagination-links"><a href="#">4</a></li>
+                  <li class="pagination-links"><a href="#">5</a></li>
+
+                  <li class="pagination-links"><a href="#">Next</a></li>
+                </ul>
+              </nav>
+            </div>
+            <div class="breadcrumb-example mry-5">
+              <div class="example-header">
                 <h3>HTML</h3>
-                <code>
-                    &lt;div class="pagination-nav"&gt;<br>
-                        &lt;nav class="pagination-navbar"&gt;<br>
-                            &lt;ul class="pagination-list"&gt;<br>
-                                &lt;li class="pagination-links"&gt;&lt;a href="#"&gt;Previous&lt;/a&gt;&lt;/li&gt;<br>
-                                &lt;li class="pagination-links"&gt;&lt;a href="#"&gt;1&lt;/a&gt;&lt;/li&gt;<br>
-                                &lt;li class="pagination-links"&gt;&lt;a href="#"&gt;2&lt;/a&gt;&lt;/li&gt;<br>
-                                &lt;li class="pagination-links"&gt;&lt;a href="#"&gt;3&lt;/a&gt;&lt;/li&gt;<br>
-                                &lt;li class="pagination-links"&gt;&lt;a href="#"&gt;4&lt;/a&gt;&lt;/li&gt;<br>
-                                &lt;li class="pagination-links"&gt;&lt;a href="#"&gt;5&lt;/a&gt;&lt;/li&gt;<br>
-            
-                                &lt;li class="pagination-links"&gt;&lt;a href="#"&gt;Next&lt;/a&gt;&lt;/li&gt;<br>
-                            &lt;/ul&gt;<br>
-                        &lt;/nav&gt;<br>
-                      &lt;/div&gt;<br>
-                </code>
+                <div class="copy-icon" onclick="copyToClipboard()">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-clipboard"
+                    viewBox="0 0 16 16">
+                    <path
+                      d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1z" />
+                    <path
+                      d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0z" />
+                  </svg>
+                </div>
               </div>
+              <code>
+                &lt;div class="pagination-nav"&gt;<br />
+                &lt;nav class="pagination-navbar"&gt;<br />
+                &lt;ul class="pagination-list"&gt;<br />
+                &lt;li class="pagination-links"&gt;&lt;a
+                href="#"&gt;Previous&lt;/a&gt;&lt;/li&gt;<br />
+                &lt;li class="pagination-links"&gt;&lt;a
+                href="#"&gt;1&lt;/a&gt;&lt;/li&gt;<br />
+                &lt;li class="pagination-links"&gt;&lt;a
+                href="#"&gt;2&lt;/a&gt;&lt;/li&gt;<br />
+                &lt;li class="pagination-links"&gt;&lt;a
+                href="#"&gt;3&lt;/a&gt;&lt;/li&gt;<br />
+                &lt;li class="pagination-links"&gt;&lt;a
+                href="#"&gt;4&lt;/a&gt;&lt;/li&gt;<br />
+                &lt;li class="pagination-links"&gt;&lt;a
+                href="#"&gt;5&lt;/a&gt;&lt;/li&gt;<br />
+
+                &lt;li class="pagination-links"&gt;&lt;a
+                href="#"&gt;Next&lt;/a&gt;&lt;/li&gt;<br />
+                &lt;/ul&gt;<br />
+                &lt;/nav&gt;<br />
+                &lt;/div&gt;<br />
+              </code>
+            </div>
             <h2>Pagination with active states link</h2>
-              <p class="paragraph-wrapper">
-                Highlight any link by adding <b>" .pagination-active"
-                </b> class.
-              </p>
-              <div class="pagination-nav mrt-5">
-                <nav class="pagination-navbar">
-                    <ul class="pagination-list">
-                        <li class="pagination-links"><a href="#">Previous</a></li>
-                        <li class="pagination-links"><a href="#">1</a></li>
-                        <li class="pagination-links"><a href="#">2</a></li>
-                        <li class="pagination-links pagination-active"><a href="#">3</a></li>
-                        <li class="pagination-links"><a href="#">4</a></li>
-                        <li class="pagination-links"><a href="#">5</a></li>
-    
-                        <li class="pagination-links"><a href="#">Next</a></li>
-                    </ul>
-                </nav>
-              </div>
-              <div class="breadcrumb-example mry-5">
+            <p class="paragraph-wrapper">
+              Highlight any link by adding <b>" .pagination-active" </b> class.
+            </p>
+            <div class="pagination-nav mrt-5">
+              <nav class="pagination-navbar">
+                <ul class="pagination-list">
+                  <li class="pagination-links"><a href="#">Previous</a></li>
+                  <li class="pagination-links"><a href="#">1</a></li>
+                  <li class="pagination-links"><a href="#">2</a></li>
+                  <li class="pagination-links pagination-active">
+                    <a href="#">3</a>
+                  </li>
+                  <li class="pagination-links"><a href="#">4</a></li>
+                  <li class="pagination-links"><a href="#">5</a></li>
+
+                  <li class="pagination-links"><a href="#">Next</a></li>
+                </ul>
+              </nav>
+            </div>
+            <div class="breadcrumb-example mry-5">
+              <div class="example-header">
                 <h3>HTML</h3>
-                <code>
-                    &lt;div class="pagination-nav"&gt;<br>
-                        &lt;nav class="pagination-navbar"&gt;<br>
-                            &lt;ul class="pagination-list"&gt;<br>
-                                &lt;li class="pagination-links"&gt;&lt;a href="#"&gt;Previous&lt;/a&gt;&lt;/li&gt;<br>
-                                &lt;li class="pagination-links"&gt;&lt;a href="#"&gt;1&lt;/a&gt;&lt;/li&gt;<br>
-                                &lt;li class="pagination-links"&gt;&lt;a href="#"&gt;2&lt;/a&gt;&lt;/li&gt;<br>
-                                &lt;li class="pagination-links pagination-active"&gt;&lt;a href="#"&gt;3&lt;/a&gt;&lt;/li&gt;<br>
-                                &lt;li class="pagination-links"&gt;&lt;a href="#"&gt;4&lt;/a&gt;&lt;/li&gt;<br>
-                                &lt;li class="pagination-links"&gt;&lt;a href="#"&gt;5&lt;/a&gt;&lt;/li&gt;<br>
-            
-                                &lt;li class="pagination-links"&gt;&lt;a href="#"&gt;Next&lt;/a&gt;&lt;/li&gt;<br>
-                            &lt;/ul&gt;<br>
-                        &lt;/nav&gt;<br>
-                      &lt;/div&gt;<br>
-                </code>
+                <div class="copy-icon" onclick="copyToClipboard()">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-clipboard"
+                    viewBox="0 0 16 16">
+                    <path
+                      d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1z" />
+                    <path
+                      d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0z" />
+                  </svg>
+                </div>
               </div>
-              <h2>Center aligned pagination</h2>
-              <p class="paragraph-wrapper">
-                Align the pagination to center by adding <b>".pagination-center"</b> class to first div.
-              </p>
-              <div class="pagination-nav pagination-center mrt-5">
-                <nav class="pagination-navbar">
-                    <ul class="pagination-list">
-                        <li class="pagination-links"><a href="#">Previous</a></li>
-                        <li class="pagination-links"><a href="#">1</a></li>
-                        <li class="pagination-links"><a href="#">2</a></li>
-                        <li class="pagination-links pagination-active"><a href="#">3</a></li>
-                        <li class="pagination-links"><a href="#">4</a></li>
-                        <li class="pagination-links"><a href="#">5</a></li>
-    
-                        <li class="pagination-links"><a href="#">Next</a></li>
-                    </ul>
-                </nav>
-              </div>
-              <div class="breadcrumb-example mry-5">
+              <code>
+                &lt;div class="pagination-nav"&gt;<br />
+                &lt;nav class="pagination-navbar"&gt;<br />
+                &lt;ul class="pagination-list"&gt;<br />
+                &lt;li class="pagination-links"&gt;&lt;a
+                href="#"&gt;Previous&lt;/a&gt;&lt;/li&gt;<br />
+                &lt;li class="pagination-links"&gt;&lt;a
+                href="#"&gt;1&lt;/a&gt;&lt;/li&gt;<br />
+                &lt;li class="pagination-links"&gt;&lt;a
+                href="#"&gt;2&lt;/a&gt;&lt;/li&gt;<br />
+                &lt;li class="pagination-links pagination-active"&gt;&lt;a
+                href="#"&gt;3&lt;/a&gt;&lt;/li&gt;<br />
+                &lt;li class="pagination-links"&gt;&lt;a
+                href="#"&gt;4&lt;/a&gt;&lt;/li&gt;<br />
+                &lt;li class="pagination-links"&gt;&lt;a
+                href="#"&gt;5&lt;/a&gt;&lt;/li&gt;<br />
+
+                &lt;li class="pagination-links"&gt;&lt;a
+                href="#"&gt;Next&lt;/a&gt;&lt;/li&gt;<br />
+                &lt;/ul&gt;<br />
+                &lt;/nav&gt;<br />
+                &lt;/div&gt;<br />
+              </code>
+            </div>
+            <h2>Center aligned pagination</h2>
+            <p class="paragraph-wrapper">
+              Align the pagination to center by adding
+              <b>".pagination-center"</b> class to first div.
+            </p>
+            <div class="pagination-nav pagination-center mrt-5">
+              <nav class="pagination-navbar">
+                <ul class="pagination-list">
+                  <li class="pagination-links"><a href="#">Previous</a></li>
+                  <li class="pagination-links"><a href="#">1</a></li>
+                  <li class="pagination-links"><a href="#">2</a></li>
+                  <li class="pagination-links pagination-active">
+                    <a href="#">3</a>
+                  </li>
+                  <li class="pagination-links"><a href="#">4</a></li>
+                  <li class="pagination-links"><a href="#">5</a></li>
+
+                  <li class="pagination-links"><a href="#">Next</a></li>
+                </ul>
+              </nav>
+            </div>
+            <div class="breadcrumb-example mry-5">
+              <div class="example-header">
                 <h3>HTML</h3>
-                <code>
-                    &lt;div class="pagination-nav pagination-center"&gt;<br>
-                        &lt;nav class="pagination-navbar"&gt;<br>
-                            &lt;ul class="pagination-list"&gt;<br>
-                                &lt;li class="pagination-links"&gt;&lt;a href="#"&gt;Previous&lt;/a&gt;&lt;/li&gt;<br>
-                                &lt;li class="pagination-links"&gt;&lt;a href="#"&gt;1&lt;/a&gt;&lt;/li&gt;<br>
-                                &lt;li class="pagination-links"&gt;&lt;a href="#"&gt;2&lt;/a&gt;&lt;/li&gt;<br>
-                                &lt;li class="pagination-links pagination-active"&gt;&lt;a href="#"&gt;3&lt;/a&gt;&lt;/li&gt;<br>
-                                &lt;li class="pagination-links"&gt;&lt;a href="#"&gt;4&lt;/a&gt;&lt;/li&gt;<br>
-                                &lt;li class="pagination-links"&gt;&lt;a href="#"&gt;5&lt;/a&gt;&lt;/li&gt;<br>
-            
-                                &lt;li class="pagination-links"&gt;&lt;a href="#"&gt;Next&lt;/a&gt;&lt;/li&gt;<br>
-                            &lt;/ul&gt;<br>
-                        &lt;/nav&gt;<br>
-                      &lt;/div&gt;<br>
-                </code>
+                <div class="copy-icon" onclick="copyToClipboard()">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-clipboard"
+                    viewBox="0 0 16 16">
+                    <path
+                      d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1z" />
+                    <path
+                      d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0z" />
+                  </svg>
+                </div>
               </div>
-              <h2>Right aligned pagination</h2>
-              <p class="paragraph-wrapper">
-                Align the pagination to right side by adding <b>".pagination-right"</b> class to first div.
-              </p>
-              <div class="pagination-nav pagination-right mrt-5">
-                <nav class="pagination-navbar">
-                    <ul class="pagination-list">
-                        <li class="pagination-links"><a href="#">Previous</a></li>
-                        <li class="pagination-links"><a href="#">1</a></li>
-                        <li class="pagination-links"><a href="#">2</a></li>
-                        <li class="pagination-links pagination-active"><a href="#">3</a></li>
-                        <li class="pagination-links"><a href="#">4</a></li>
-                        <li class="pagination-links"><a href="#">5</a></li>
-    
-                        <li class="pagination-links"><a href="#">Next</a></li>
-                    </ul>
-                </nav>
-              </div>
-              <div class="breadcrumb-example mry-5">
+              <code>
+                &lt;div class="pagination-nav pagination-center"&gt;<br />
+                &lt;nav class="pagination-navbar"&gt;<br />
+                &lt;ul class="pagination-list"&gt;<br />
+                &lt;li class="pagination-links"&gt;&lt;a
+                href="#"&gt;Previous&lt;/a&gt;&lt;/li&gt;<br />
+                &lt;li class="pagination-links"&gt;&lt;a
+                href="#"&gt;1&lt;/a&gt;&lt;/li&gt;<br />
+                &lt;li class="pagination-links"&gt;&lt;a
+                href="#"&gt;2&lt;/a&gt;&lt;/li&gt;<br />
+                &lt;li class="pagination-links pagination-active"&gt;&lt;a
+                href="#"&gt;3&lt;/a&gt;&lt;/li&gt;<br />
+                &lt;li class="pagination-links"&gt;&lt;a
+                href="#"&gt;4&lt;/a&gt;&lt;/li&gt;<br />
+                &lt;li class="pagination-links"&gt;&lt;a
+                href="#"&gt;5&lt;/a&gt;&lt;/li&gt;<br />
+
+                &lt;li class="pagination-links"&gt;&lt;a
+                href="#"&gt;Next&lt;/a&gt;&lt;/li&gt;<br />
+                &lt;/ul&gt;<br />
+                &lt;/nav&gt;<br />
+                &lt;/div&gt;<br />
+              </code>
+            </div>
+            <h2>Right aligned pagination</h2>
+            <p class="paragraph-wrapper">
+              Align the pagination to right side by adding
+              <b>".pagination-right"</b> class to first div.
+            </p>
+            <div class="pagination-nav pagination-right mrt-5">
+              <nav class="pagination-navbar">
+                <ul class="pagination-list">
+                  <li class="pagination-links"><a href="#">Previous</a></li>
+                  <li class="pagination-links"><a href="#">1</a></li>
+                  <li class="pagination-links"><a href="#">2</a></li>
+                  <li class="pagination-links pagination-active">
+                    <a href="#">3</a>
+                  </li>
+                  <li class="pagination-links"><a href="#">4</a></li>
+                  <li class="pagination-links"><a href="#">5</a></li>
+
+                  <li class="pagination-links"><a href="#">Next</a></li>
+                </ul>
+              </nav>
+            </div>
+            <div class="breadcrumb-example mry-5">
+              <div class="example-header">
                 <h3>HTML</h3>
-                <code>
-                    &lt;div class="pagination-nav pagination-right"&gt;<br>
-                        &lt;nav class="pagination-navbar"&gt;<br>
-                            &lt;ul class="pagination-list"&gt;<br>
-                                &lt;li class="pagination-links"&gt;&lt;a href="#"&gt;Previous&lt;/a&gt;&lt;/li&gt;<br>
-                                &lt;li class="pagination-links"&gt;&lt;a href="#"&gt;1&lt;/a&gt;&lt;/li&gt;<br>
-                                &lt;li class="pagination-links"&gt;&lt;a href="#"&gt;2&lt;/a&gt;&lt;/li&gt;<br>
-                                &lt;li class="pagination-links pagination-active"&gt;&lt;a href="#"&gt;3&lt;/a&gt;&lt;/li&gt;<br>
-                                &lt;li class="pagination-links"&gt;&lt;a href="#"&gt;4&lt;/a&gt;&lt;/li&gt;<br>
-                                &lt;li class="pagination-links"&gt;&lt;a href="#"&gt;5&lt;/a&gt;&lt;/li&gt;<br>
-            
-                                &lt;li class="pagination-links"&gt;&lt;a href="#"&gt;Next&lt;/a&gt;&lt;/li&gt;<br>
-                            &lt;/ul&gt;<br>
-                        &lt;/nav&gt;<br>
-                      &lt;/div&gt;<br>
-                </code>
+                <div class="copy-icon" onclick="copyToClipboard()">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-clipboard"
+                    viewBox="0 0 16 16">
+                    <path
+                      d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1z" />
+                    <path
+                      d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0z" />
+                  </svg>
+                </div>
               </div>
+              <code>
+                &lt;div class="pagination-nav pagination-right"&gt;<br />
+                &lt;nav class="pagination-navbar"&gt;<br />
+                &lt;ul class="pagination-list"&gt;<br />
+                &lt;li class="pagination-links"&gt;&lt;a
+                href="#"&gt;Previous&lt;/a&gt;&lt;/li&gt;<br />
+                &lt;li class="pagination-links"&gt;&lt;a
+                href="#"&gt;1&lt;/a&gt;&lt;/li&gt;<br />
+                &lt;li class="pagination-links"&gt;&lt;a
+                href="#"&gt;2&lt;/a&gt;&lt;/li&gt;<br />
+                &lt;li class="pagination-links pagination-active"&gt;&lt;a
+                href="#"&gt;3&lt;/a&gt;&lt;/li&gt;<br />
+                &lt;li class="pagination-links"&gt;&lt;a
+                href="#"&gt;4&lt;/a&gt;&lt;/li&gt;<br />
+                &lt;li class="pagination-links"&gt;&lt;a
+                href="#"&gt;5&lt;/a&gt;&lt;/li&gt;<br />
+
+                &lt;li class="pagination-links"&gt;&lt;a
+                href="#"&gt;Next&lt;/a&gt;&lt;/li&gt;<br />
+                &lt;/ul&gt;<br />
+                &lt;/nav&gt;<br />
+                &lt;/div&gt;<br />
+              </code>
+            </div>
           </div>
-          
         </div>
       </section>
     </main>
@@ -296,5 +394,6 @@
         <p>Copyright &copy; immortal design all right reserved</p>
       </div>
     </footer>
+    <script src="index.js"></script>
   </body>
 </html>

@@ -87,9 +87,10 @@
           </div>
           <div class="accordion-content mry-5">
             <div class="accordion-item mry-5">
-            
               <input type="checkbox" id="accordion1" />
-              <label class="accordion-label" for="accordion1">Accordion #1</label>
+              <label class="accordion-label" for="accordion1"
+                >Accordion #1</label
+              >
               <div class="accordion-para">
                 <p class="mry-3">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -100,7 +101,9 @@
                 </p>
               </div>
               <input type="checkbox" id="accordion2" />
-              <label class="accordion-label" for="accordion2">Accordion #2</label>
+              <label class="accordion-label" for="accordion2"
+                >Accordion #2</label
+              >
               <div class="accordion-para">
                 <p class="mry-3">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -111,7 +114,9 @@
                 </p>
               </div>
               <input type="checkbox" id="accordion3" />
-              <label class="accordion-label" for="accordion3">Accordion #3</label>
+              <label class="accordion-label" for="accordion3"
+                >Accordion #3</label
+              >
               <div class="accordion-para">
                 <p class="mry-3">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -122,7 +127,9 @@
                 </p>
               </div>
               <input type="checkbox" id="accordion4" />
-              <label class="accordion-label" for="accordion4">Accordion #4</label>
+              <label class="accordion-label" for="accordion4"
+                >Accordion #4</label
+              >
               <div class="accordion-para">
                 <p class="mry-3">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -134,63 +141,83 @@
               </div>
             </div>
             <div class="accordion-example">
-              <h3>HTML</h3>
+              <div class="example-header">
+                <h3>HTML</h3>
+                <div class="copy-icon" onclick="copyToClipboard()">
+<svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-clipboard"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1z" />
+                  <path
+                    d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0z" />
+                </svg>
+</div>
+              </div>
               <code>
-               &lt;div class="accordion-item"&gt;<br>
+                &lt;div class="accordion-item"&gt;<br />
 
-              &lt;input type="checkbox" id="accordion1" /&gt;<br>
-              &lt;label class="accordion-label" for="accordion1"&gt;Accordion #1&lt;/label&gt;<br>
-              &lt;div class="accordion-para"&gt;<br>
-                &lt;p class="mry-3"&gt;<br>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Distinctio ipsum ad cumque, exercitationem laboriosam, earum
-                  ipsam asperiores nulla reprehenderit nam impedit minus, sit
-                  blanditiis cupiditate eaque! Quam, soluta illo amet quibusdam
-                  magni delectus aut! Mollitia, quos a.
-                &lt;/p&gt;<br>
-              &lt;/div&gt;<br>
-              &lt;input type="checkbox" id="accordion2" /&gt;<br>
-              &lt;label class="accordion-label" for="accordion2"&gt;Accordion #2&lt;/label&gt;<br>
-              &lt;div class="accordion-para"&gt;<br>
-                &lt;p class="mry-3"&gt;<br>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Distinctio ipsum ad cumque, exercitationem laboriosam, earum
-                  ipsam asperiores nulla reprehenderit nam impedit minus, sit
-                  blanditiis cupiditate eaque! Quam, soluta illo amet quibusdam
-                  magni delectus aut! Mollitia, quos a.
-                &lt;/p&gt;<br>
-              &lt;/div&gt;<br>
-              &lt;input type="checkbox" id="accordion3" /&gt;<br>
-              &lt;label class="accordion-label" for="accordion3"&gt;Accordion #3&lt;/label&gt;<br>
-              &lt;div class="accordion-para"&gt;<br>
-                &lt;p class="mry-3"&gt;<br>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Distinctio ipsum ad cumque, exercitationem laboriosam, earum
-                  ipsam asperiores nulla reprehenderit nam impedit minus, sit
-                  blanditiis cupiditate eaque! Quam, soluta illo amet quibusdam
-                  magni delectus aut! Mollitia, quos a.
-                &lt;/p&gt;<br>
-              &lt;/div&gt;<br>
-              &lt;input type="checkbox" id="accordion4" /&gt;<br>
-              &lt;label class="accordion-label" for="accordion4"&gt;Accordion #4&lt;/label&gt;<br>
-              &lt;div class="accordion-para"&gt;<br>
-                &lt;p class="mry-3"&gt;<br>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Distinctio ipsum ad cumque, exercitationem laboriosam, earum
-                  ipsam asperiores nulla reprehenderit nam impedit minus, sit
-                  blanditiis cupiditate eaque! Quam, soluta illo amet quibusdam
-                  magni delectus aut! Mollitia, quos a.
-                &lt;/p&gt;<br>
-              &lt;/div&gt;<br>
-            &lt;/div&gt;<br>
+                &lt;input type="checkbox" id="accordion1" /&gt;<br />
+                &lt;label class="accordion-label" for="accordion1"&gt;Accordion
+                #1&lt;/label&gt;<br />
+                &lt;div class="accordion-para"&gt;<br />
+                &lt;p class="mry-3"&gt;<br />
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Distinctio ipsum ad cumque, exercitationem laboriosam, earum
+                ipsam asperiores nulla reprehenderit nam impedit minus, sit
+                blanditiis cupiditate eaque! Quam, soluta illo amet quibusdam
+                magni delectus aut! Mollitia, quos a. &lt;/p&gt;<br />
+                &lt;/div&gt;<br />
+                &lt;input type="checkbox" id="accordion2" /&gt;<br />
+                &lt;label class="accordion-label" for="accordion2"&gt;Accordion
+                #2&lt;/label&gt;<br />
+                &lt;div class="accordion-para"&gt;<br />
+                &lt;p class="mry-3"&gt;<br />
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Distinctio ipsum ad cumque, exercitationem laboriosam, earum
+                ipsam asperiores nulla reprehenderit nam impedit minus, sit
+                blanditiis cupiditate eaque! Quam, soluta illo amet quibusdam
+                magni delectus aut! Mollitia, quos a. &lt;/p&gt;<br />
+                &lt;/div&gt;<br />
+                &lt;input type="checkbox" id="accordion3" /&gt;<br />
+                &lt;label class="accordion-label" for="accordion3"&gt;Accordion
+                #3&lt;/label&gt;<br />
+                &lt;div class="accordion-para"&gt;<br />
+                &lt;p class="mry-3"&gt;<br />
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Distinctio ipsum ad cumque, exercitationem laboriosam, earum
+                ipsam asperiores nulla reprehenderit nam impedit minus, sit
+                blanditiis cupiditate eaque! Quam, soluta illo amet quibusdam
+                magni delectus aut! Mollitia, quos a. &lt;/p&gt;<br />
+                &lt;/div&gt;<br />
+                &lt;input type="checkbox" id="accordion4" /&gt;<br />
+                &lt;label class="accordion-label" for="accordion4"&gt;Accordion
+                #4&lt;/label&gt;<br />
+                &lt;div class="accordion-para"&gt;<br />
+                &lt;p class="mry-3"&gt;<br />
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Distinctio ipsum ad cumque, exercitationem laboriosam, earum
+                ipsam asperiores nulla reprehenderit nam impedit minus, sit
+                blanditiis cupiditate eaque! Quam, soluta illo amet quibusdam
+                magni delectus aut! Mollitia, quos a. &lt;/p&gt;<br />
+                &lt;/div&gt;<br />
+                &lt;/div&gt;<br />
               </code>
             </div>
             <h2 class="mrt-3">Arrow label</h2>
-            <p class="paragraph-wrapper">Change the lable by adding <b>.accordion-arrow</b> class to label element.</p>
+            <p class="paragraph-wrapper">
+              Change the lable by adding <b>.accordion-arrow</b> class to label
+              element.
+            </p>
             <div class="accordion-item mry-5">
-
               <input type="checkbox" id="accordions1" />
-              <label class="accordion-arrow" for="accordions1">Accordion #1</label>
+              <label class="accordion-arrow" for="accordions1"
+                >Accordion #1</label
+              >
               <div class="accordion-para">
                 <p class="mry-3">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -201,7 +228,9 @@
                 </p>
               </div>
               <input type="checkbox" id="accordions2" />
-              <label class="accordion-arrow" for="accordions2">Accordion #2</label>
+              <label class="accordion-arrow" for="accordions2"
+                >Accordion #2</label
+              >
               <div class="accordion-para">
                 <p class="mry-3">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -212,7 +241,9 @@
                 </p>
               </div>
               <input type="checkbox" id="accordions3" />
-              <label class="accordion-arrow" for="accordions3">Accordion #3</label>
+              <label class="accordion-arrow" for="accordions3"
+                >Accordion #3</label
+              >
               <div class="accordion-para">
                 <p class="mry-3">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -223,7 +254,9 @@
                 </p>
               </div>
               <input type="checkbox" id="accordions4" />
-              <label class="accordion-arrow" for="accordions4">Accordion #4</label>
+              <label class="accordion-arrow" for="accordions4"
+                >Accordion #4</label
+              >
               <div class="accordion-para">
                 <p class="mry-3">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -235,55 +268,71 @@
               </div>
             </div>
             <div class="accordion-example">
-              <h3>HTML</h3>
+              <div class="example-header">
+                <h3>HTML</h3>
+                <div class="copy-icon" onclick="copyToClipboard()">
+<svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-clipboard"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1z" />
+                  <path
+                    d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0z" />
+                </svg>
+</div>
+              </div>
               <code>
-               &lt;div class="accordion-item"&gt;<br>
+                &lt;div class="accordion-item"&gt;<br />
 
-              &lt;input type="checkbox" id="accordion1" /&gt;<br>
-              &lt;label class="accordion-arrow" for="accordion1"&gt;Accordion #1&lt;/label&gt;<br>
-              &lt;div class="accordion-para"&gt;<br>
-                &lt;p class="mry-3"&gt;<br>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Distinctio ipsum ad cumque, exercitationem laboriosam, earum
-                  ipsam asperiores nulla reprehenderit nam impedit minus, sit
-                  blanditiis cupiditate eaque! Quam, soluta illo amet quibusdam
-                  magni delectus aut! Mollitia, quos a.
-                &lt;/p&gt;<br>
-              &lt;/div&gt;<br>
-              &lt;input type="checkbox" id="accordion2" /&gt;<br>
-              &lt;label class="accordion-arrow" for="accordion2"&gt;Accordion #2&lt;/label&gt;<br>
-              &lt;div class="accordion-para"&gt;<br>
-                &lt;p class="mry-3"&gt;<br>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Distinctio ipsum ad cumque, exercitationem laboriosam, earum
-                  ipsam asperiores nulla reprehenderit nam impedit minus, sit
-                  blanditiis cupiditate eaque! Quam, soluta illo amet quibusdam
-                  magni delectus aut! Mollitia, quos a.
-                &lt;/p&gt;<br>
-              &lt;/div&gt;<br>
-              &lt;input type="checkbox" id="accordion3" /&gt;<br>
-              &lt;label class="accordion-arrow" for="accordion3"&gt;Accordion #3&lt;/label&gt;<br>
-              &lt;div class="accordion-para"&gt;<br>
-                &lt;p class="mry-3"&gt;<br>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Distinctio ipsum ad cumque, exercitationem laboriosam, earum
-                  ipsam asperiores nulla reprehenderit nam impedit minus, sit
-                  blanditiis cupiditate eaque! Quam, soluta illo amet quibusdam
-                  magni delectus aut! Mollitia, quos a.
-                &lt;/p&gt;<br>
-              &lt;/div&gt;<br>
-              &lt;input type="checkbox" id="accordion4" /&gt;<br>
-              &lt;label class="accordion-arrow" for="accordion4"&gt;Accordion #4&lt;/label&gt;<br>
-              &lt;div class="accordion-para"&gt;<br>
-                &lt;p class="mry-3"&gt;<br>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Distinctio ipsum ad cumque, exercitationem laboriosam, earum
-                  ipsam asperiores nulla reprehenderit nam impedit minus, sit
-                  blanditiis cupiditate eaque! Quam, soluta illo amet quibusdam
-                  magni delectus aut! Mollitia, quos a.
-                &lt;/p&gt;<br>
-              &lt;/div&gt;<br>
-            &lt;/div&gt;<br>
+                &lt;input type="checkbox" id="accordion1" /&gt;<br />
+                &lt;label class="accordion-arrow" for="accordion1"&gt;Accordion
+                #1&lt;/label&gt;<br />
+                &lt;div class="accordion-para"&gt;<br />
+                &lt;p class="mry-3"&gt;<br />
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Distinctio ipsum ad cumque, exercitationem laboriosam, earum
+                ipsam asperiores nulla reprehenderit nam impedit minus, sit
+                blanditiis cupiditate eaque! Quam, soluta illo amet quibusdam
+                magni delectus aut! Mollitia, quos a. &lt;/p&gt;<br />
+                &lt;/div&gt;<br />
+                &lt;input type="checkbox" id="accordion2" /&gt;<br />
+                &lt;label class="accordion-arrow" for="accordion2"&gt;Accordion
+                #2&lt;/label&gt;<br />
+                &lt;div class="accordion-para"&gt;<br />
+                &lt;p class="mry-3"&gt;<br />
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Distinctio ipsum ad cumque, exercitationem laboriosam, earum
+                ipsam asperiores nulla reprehenderit nam impedit minus, sit
+                blanditiis cupiditate eaque! Quam, soluta illo amet quibusdam
+                magni delectus aut! Mollitia, quos a. &lt;/p&gt;<br />
+                &lt;/div&gt;<br />
+                &lt;input type="checkbox" id="accordion3" /&gt;<br />
+                &lt;label class="accordion-arrow" for="accordion3"&gt;Accordion
+                #3&lt;/label&gt;<br />
+                &lt;div class="accordion-para"&gt;<br />
+                &lt;p class="mry-3"&gt;<br />
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Distinctio ipsum ad cumque, exercitationem laboriosam, earum
+                ipsam asperiores nulla reprehenderit nam impedit minus, sit
+                blanditiis cupiditate eaque! Quam, soluta illo amet quibusdam
+                magni delectus aut! Mollitia, quos a. &lt;/p&gt;<br />
+                &lt;/div&gt;<br />
+                &lt;input type="checkbox" id="accordion4" /&gt;<br />
+                &lt;label class="accordion-arrow" for="accordion4"&gt;Accordion
+                #4&lt;/label&gt;<br />
+                &lt;div class="accordion-para"&gt;<br />
+                &lt;p class="mry-3"&gt;<br />
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Distinctio ipsum ad cumque, exercitationem laboriosam, earum
+                ipsam asperiores nulla reprehenderit nam impedit minus, sit
+                blanditiis cupiditate eaque! Quam, soluta illo amet quibusdam
+                magni delectus aut! Mollitia, quos a. &lt;/p&gt;<br />
+                &lt;/div&gt;<br />
+                &lt;/div&gt;<br />
               </code>
             </div>
           </div>
@@ -338,5 +387,6 @@
         <p>Copyright &copy; immortal design all right reserved</p>
       </div>
     </footer>
+    <script src="index.js"></script>
   </body>
 </html>
