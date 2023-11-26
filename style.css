@@ -1029,6 +1029,8 @@ ul,
 
 .navigation-block{
 display: block;
+.navigation-block {
+  display: block;
 }
 
 .navigation-display ul{
