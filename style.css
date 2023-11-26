@@ -45,7 +45,7 @@ h1 {
   width: 100vw;
   position: fixed;
   align-items: center;
-  z-index: 1;
+  z-index: 2;
   flex-direction: row-reverse;
 }
 .header__nav {
@@ -76,6 +76,7 @@ h1 {
   padding-left: 40px;
   padding-top: 50px;
   overflow-y: auto;
+  z-index: 1;
 }
 .vertical-nav__category {
   margin-bottom: 10px;
@@ -116,6 +117,7 @@ h1 {
   padding: 10px;
   border: none;
   cursor: pointer;
+  
 }
 
 .toggle-btn::before {
@@ -1042,6 +1044,7 @@ display: block;
 }
 .navigation-display .navigation-list a{
   padding:0;
+  padding: 0;
 }
 /* ============== VERTICAL NAVIGATION BAR ================ */
 
@@ -1114,12 +1117,11 @@ display: block;
   max-height: 0;
   overflow: hidden;
   width: 100%;
-  border:  1px solid rgb(193, 193, 193);
+  border: 1px solid rgb(193, 193, 193);
   border-top: none;
 
   /* max-width: 78.5%; */
 }
-
 .accordion-para p {
   position: relative;
 
