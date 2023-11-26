@@ -394,7 +394,8 @@ ul,
 .navigation-example,
 .verticalnav-example,
 .accordion-example,
-.buttons-example {
+.buttons-example,
+.cards-example {
   background-color: rgb(50, 50, 50);
   color: var(--white);
   padding: 1rem;
@@ -1269,6 +1270,42 @@ input[type='checkbox']:last-of-type:checked ~ .accordion-para {
 .btn-pill {
   border-radius: 50px;
 }
+
+/* ================= CARDS ================*/
+
+.card-demo{
+  display: flex;
+  gap:8%;
+}
+
+.card-vertical{
+  flex-direction: column;
+}
+
+.card-vertical .card-content{
+   margin: 20px auto;
+}
+.card-content{
+  border: 2px solid gainsboro;
+  width: 303px;
+  border-radius: 25px;
+  height: auto;
+  
+}
+
+.card-caption{
+  padding: 10px 20px;
+}
+.card-button{
+ 
+  padding-bottom: 50px;
+}
+.card-button .btn{
+  float: right;
+
+}
+
+
 /* ================ FOOTER ==================*/
 .footer-container {
   margin-left: 310px;
@@ -1364,6 +1401,27 @@ input[type='checkbox']:last-of-type:checked ~ .accordion-para {
   .navigation-toggle::before {
     margin-left: 550px;
   }
+  .card-demo{
+    gap: 28px;
+  }
+
+  .card-content{
+    width: 183px;
+    height: 357px;
+  }
+  .card-caption{
+    padding: 0 10px;
+  }
+  .card-paragraph{
+    font-size: .7rem;
+  }
+  .card-content .image-card{
+    width: 180px;
+    height: 130px;
+  }
+  .card-button .btn{
+padding: 5px 15px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -1409,6 +1467,13 @@ input[type='checkbox']:last-of-type:checked ~ .accordion-para {
   }
   .navigation-toggle::before {
     margin-left: 600px;
+  }
+  .card-demo{
+    gap:60px;
+  }
+
+  .card-vertical{
+    gap:0;
   }
 }
 
@@ -1492,5 +1557,15 @@ input[type='checkbox']:last-of-type:checked ~ .accordion-para {
   .accordion-para,
   .navigation-display {
     max-width: 98.7%;
+  }
+
+  .card-demo{
+    flex-direction: column;
+    gap:0;
+  }
+  
+  .card-demo .card-content{
+  margin: 20px auto;
+
   }
 }
