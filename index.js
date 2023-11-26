@@ -18,3 +18,11 @@ function copyToClipboard() {
     });
 }
 
+function toggleDropdown(button) {
+  // Toggle the "up" class on the span element to rotate the "<" symbol
+  button.querySelector('.dropdown-rotate').classList.toggle('.dropdown-reverse');
+  
+  // Toggle the display of the dropdown options
+  const dropdownOptions = button.nextElementSibling;
+  dropdownOptions.style.display = dropdownOptions.style.display === 'none' ? 'block' : 'none';
+}
