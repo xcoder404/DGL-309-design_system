@@ -64,8 +64,8 @@
           <ul class="vertical-nav__category-item">
             <li><a href="accordion.html">Accordions</a></li>
             <li><a href="buttons.html">Buttons</a></li>
-            <li><a href="cards.html" class="active-link">Cards</a></li>
-            <li><a href="carousel.html">Carousel</a></li>
+            <li><a href="cards.html">Cards</a></li>
+            <li><a href="carousel.html" class="active-link">Carousel</a></li>
             <li><a href="#">Dropdown</a></li>
             <li><a href="#">Forms</a></li>
             <li><a href="#">Modals</a></li>
@@ -73,77 +73,47 @@
           </ul>
         </div>
       </section>
-      <section class="cards">
+      <section class="carousel">
         <div class="container-wrap">
-          <div class="cards-intro">
-            <h1>Cards</h1>
+          <div class="carousel-intro">
+            <h1>Carousel</h1>
             <p class="paragraph-wrapper">
-              Our carefully built cards combine visual appeal with simple use.
-              These adaptable building pieces transform user interfaces with
-              their slim profiles and vibrant displays, guaranteeing a visually
-              appealing and captivating experience. Discover the endless
-              possibilities at the center of Immortal Design, where form meets
-              timeless function.
+              Enter a visual exhibition with easy-to-use controls and smooth
+              transitions. Whether it's used for product displays, moment
+              sharing, or portfolio presentations, our Carousel gives your
+              information a dynamic feel. Our Carousel Section's flowing
+              elegance will enhance your online experience; each slide is a work
+              of art just waiting to be found.
             </p>
           </div>
-          <div class="cards-content mry-5">
-            <h2>Card with image and title</h2>
-            <p class="paragraph-wrapper">
-              Simple cards containing image, card title, card content and card
-              button.
-            </p>
-            <div class="card-demo">
-              <div class="card-content">
-                <img src="images/dummy_image_300X300.png" class="image-card" />
-                <div class="card-caption">
-                  <h3 class="card-title">Card title</h3>
-                  <p class="card-paragraph">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Modi esse amet soluta possimus hic laboriosam omnis tempora
-                    dolore magnam. Consequuntur!
-                  </p>
-                  <div class="card-button">
-                    <button type="button" class="btn btn-primary">
-                      BUTTON
-                    </button>
-                  </div>
+          <div class="carousel-content mry-5">
+            <h2>Simple image carousel</h2>
+            <div class="carousel-container">
+              <div class="carousel-wrapper">
+                <div class="carousel-slider">
+                  <img
+                    id="slide1"
+                    src="images/dummy_image_300X300.png"
+                    alt="" />
+                  <img
+                    id="slide2"
+                    src="images/dummy_image_300X300.png"
+                    alt="" />
+                  <img
+                    id="slide3"
+                    src="images/dummy_image_300X300.png"
+                    alt="" />
                 </div>
-              </div>
-              <div class="card-content">
-                <img src="images/dummy_image_300X300.png" class="image-card" />
-                <div class="card-caption">
-                  <h3 class="card-title">Card title</h3>
-                  <p class="card-paragraph">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Modi esse amet soluta possimus hic laboriosam omnis tempora
-                    dolore magnam. Consequuntur!
-                  </p>
-                  <div class="card-button">
-                    <button type="button" class="btn btn-primary">
-                      BUTTON
-                    </button>
-                  </div>
-                </div>
-              </div>
-              <div class="card-content">
-                <img src="images/dummy_image_300X300.png" class="image-card" />
-                <div class="card-caption">
-                  <h3 class="card-title">Card title</h3>
-                  <p class="card-paragraph">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Modi esse amet soluta possimus hic laboriosam omnis tempora
-                    dolore magnam. Consequuntur!
-                  </p>
-                  <div class="card-button">
-                    <button type="button" class="btn btn-primary">
-                      BUTTON
-                    </button>
-                  </div>
+
+                <div class="carousel-nav">
+                  <a href="#slide1"></a>
+                  <a href="#slide2"></a>
+                  <a href="#slide3"></a>
                 </div>
               </div>
             </div>
-         
-          <div class="cards-example mry-5">
+          </div>
+          <div class="carousel-example mry-5">
             <div class="example-header">
               <h3>HTML</h3>
               <div class="copy-icon" onclick="copyToClipboard()">
@@ -162,179 +132,25 @@
               </div>
             </div>
             <code>
-              &lt;div class="card-demo"&gt;<br />
-              &lt;div class="card-content"&gt;<br />
-              &lt;img src="images/dummy_image_300X300.png" class="image-card"
+              &lt;div class="carousel-container"&gt;<br />
+              &lt;div class="carousel-wrapper"&gt;<br />
+              &lt;div class="carousel-slider"&gt;<br />
+              &lt;img id="slide1" src="images/dummy_image_300X300.png" alt=""
               /&gt;<br />
-              &lt;div class="card-caption"&gt;<br />
-              &lt;h3 class="card-title"&gt;Card title&lt;/h3&gt;<br />
-              &lt;p class="card-paragraph"&gt;<br />
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi esse
-              amet soluta possimus hic laboriosam omnis tempora dolore magnam.
-              Consequuntur! &lt;/p&gt;<br />
-              &lt;div class="card-button"&gt;<br />
-              &lt;button type="button" class="btn btn-primary"&gt;<br />
-              BUTTON &lt;/button&gt;<br />
-              &lt;/div&gt;<br />
-              &lt;/div&gt;<br />
-              &lt;/div&gt;<br />
-              &lt;div class="card-content"&gt;<br />
-              &lt;img src="images/dummy_image_300X300.png" class="image-card"
+              &lt;img id="slide2" src="images/dummy_image_300X300.png" alt=""
               /&gt;<br />
-              &lt;div class="card-caption"&gt;<br />
-              &lt;h3 class="card-title"&gt;Card title&lt;/h3&gt;<br />
-              &lt;p class="card-paragraph"&gt;<br />
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi esse
-              amet soluta possimus hic laboriosam omnis tempora dolore magnam.
-              Consequuntur! &lt;/p&gt;<br />
-              &lt;div class="card-button"&gt;<br />
-              &lt;button type="button" class="btn btn-primary"&gt;<br />
-              BUTTON &lt;/button&gt;<br />
-              &lt;/div&gt;<br />
-              &lt;/div&gt;<br />
-              &lt;/div&gt;<br />
-              &lt;div class="card-content"&gt;<br />
-              &lt;img src="images/dummy_image_300X300.png" class="image-card"
+              &lt;img id="slide3" src="images/dummy_image_300X300.png" alt=""
               /&gt;<br />
-              &lt;div class="card-caption"&gt;<br />
-              &lt;h3 class="card-title"&gt;Card title&lt;/h3&gt;<br />
-              &lt;p class="card-paragraph"&gt;<br />
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi esse
-              amet soluta possimus hic laboriosam omnis tempora dolore magnam.
-              Consequuntur! &lt;/p&gt;<br />
-              &lt;div class="card-button"&gt;<br />
-              &lt;button type="button" class="btn btn-primary"&gt;<br />
-              BUTTON &lt;/button&gt;<br />
               &lt;/div&gt;<br />
+              &lt;div class="carousel-nav"&gt;<br />
+              &lt;a href="#slide1"&gt;&lt;/a&gt;<br />
+              &lt;a href="#slide2"&gt;&lt;/a&gt;<br />
+              &lt;a href="#slide3"&gt;&lt;/a&gt;<br />
               &lt;/div&gt;<br />
               &lt;/div&gt;<br />
               &lt;/div&gt;<br />
             </code>
           </div>
-          <h2>Vertially aligned cards</h2>
-          <p class="paragrpah-wrapper">
-            Align your card vertically by adding <b>".card-vertical"</b> class to first div.
-          </p>
-          <div class="card-demo card-vertical">
-            <div class="card-content">
-              <img src="images/dummy_image_300X300.png" class="image-card" />
-              <div class="card-caption">
-                <h3 class="card-title">Card title</h3>
-                <p class="card-paragraph">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Modi esse amet soluta possimus hic laboriosam omnis tempora
-                  dolore magnam. Consequuntur!
-                </p>
-                <div class="card-button">
-                  <button type="button" class="btn btn-primary">
-                    BUTTON
-                  </button>
-                </div>
-              </div>
-            </div>
-            <div class="card-content">
-              <img src="images/dummy_image_300X300.png" class="image-card" />
-              <div class="card-caption">
-                <h3 class="card-title">Card title</h3>
-                <p class="card-paragraph">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Modi esse amet soluta possimus hic laboriosam omnis tempora
-                  dolore magnam. Consequuntur!
-                </p>
-                <div class="card-button">
-                  <button type="button" class="btn btn-primary">
-                    BUTTON
-                  </button>
-                </div>
-              </div>
-            </div>
-            <div class="card-content">
-              <img src="images/dummy_image_300X300.png" class="image-card" />
-              <div class="card-caption">
-                <h3 class="card-title">Card title</h3>
-                <p class="card-paragraph">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Modi esse amet soluta possimus hic laboriosam omnis tempora
-                  dolore magnam. Consequuntur!
-                </p>
-                <div class="card-button">
-                  <button type="button" class="btn btn-primary">
-                    BUTTON
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-       
-        <div class="cards-example mry-5">
-          <div class="example-header">
-            <h3>HTML</h3>
-            <div class="copy-icon" onclick="copyToClipboard()">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="16"
-                fill="currentColor"
-                class="bi bi-clipboard"
-                viewBox="0 0 16 16">
-                <path
-                  d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1z" />
-                <path
-                  d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0z" />
-              </svg>
-            </div>
-          </div>
-          <code>
-            &lt;div class="card-demo card-vertical"&gt;<br />
-            &lt;div class="card-content"&gt;<br />
-            &lt;img src="images/dummy_image_300X300.png" class="image-card"
-            /&gt;<br />
-            &lt;div class="card-caption"&gt;<br />
-            &lt;h3 class="card-title"&gt;Card title&lt;/h3&gt;<br />
-            &lt;p class="card-paragraph"&gt;<br />
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi esse
-            amet soluta possimus hic laboriosam omnis tempora dolore magnam.
-            Consequuntur! &lt;/p&gt;<br />
-            &lt;div class="card-button"&gt;<br />
-            &lt;button type="button" class="btn btn-primary"&gt;<br />
-            BUTTON &lt;/button&gt;<br />
-            &lt;/div&gt;<br />
-            &lt;/div&gt;<br />
-            &lt;/div&gt;<br />
-            &lt;div class="card-content"&gt;<br />
-            &lt;img src="images/dummy_image_300X300.png" class="image-card"
-            /&gt;<br />
-            &lt;div class="card-caption"&gt;<br />
-            &lt;h3 class="card-title"&gt;Card title&lt;/h3&gt;<br />
-            &lt;p class="card-paragraph"&gt;<br />
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi esse
-            amet soluta possimus hic laboriosam omnis tempora dolore magnam.
-            Consequuntur! &lt;/p&gt;<br />
-            &lt;div class="card-button"&gt;<br />
-            &lt;button type="button" class="btn btn-primary"&gt;<br />
-            BUTTON &lt;/button&gt;<br />
-            &lt;/div&gt;<br />
-            &lt;/div&gt;<br />
-            &lt;/div&gt;<br />
-            &lt;div class="card-content"&gt;<br />
-            &lt;img src="images/dummy_image_300X300.png" class="image-card"
-            /&gt;<br />
-            &lt;div class="card-caption"&gt;<br />
-            &lt;h3 class="card-title"&gt;Card title&lt;/h3&gt;<br />
-            &lt;p class="card-paragraph"&gt;<br />
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi esse
-            amet soluta possimus hic laboriosam omnis tempora dolore magnam.
-            Consequuntur! &lt;/p&gt;<br />
-            &lt;div class="card-button"&gt;<br />
-            &lt;button type="button" class="btn btn-primary"&gt;<br />
-            BUTTON &lt;/button&gt;<br />
-            &lt;/div&gt;<br />
-            &lt;/div&gt;<br />
-            &lt;/div&gt;<br />
-            &lt;/div&gt;<br />
-          </code>
-        </div>
-        </div>
         </div>
       </section>
     </main>

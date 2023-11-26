@@ -17,3 +17,4 @@ function copyToClipboard() {
       console.error('Unable to copy text to clipboard', err);
     });
 }
+
