@@ -16,7 +16,7 @@
 
     <link rel="stylesheet" href="style.css" />
 
-    <title>Containers</title>
+    <title>Modals</title>
   </head>
   <body>
     <header class="header">
@@ -46,9 +46,7 @@
         <div class="vertical-nav__category">
           <h3><b>Layout</b></h3>
           <ul class="vertical-nav__category-item">
-            <li>
-              <a href="containers.html" class="active-link">Containers</a>
-            </li>
+            <li><a href="containers.html">Containers</a></li>
             <li><a href="grid.html">Grid</a></li>
           </ul>
         </div>
@@ -70,167 +68,23 @@
             <li><a href="carousel.html">Carousel</a></li>
             <li><a href="dropdown.html">Dropdown</a></li>
             <li><a href="forms.html">Forms</a></li>
-            <li><a href="modals.html">Modals</a></li>
+            <li><a href="modals.html" class="active-link">Modals</a></li>
             <li><a href="#">Tables</a></li>
           </ul>
         </div>
       </section>
-      <section class="containers">
+      <section class="modal">
         <div class="container-wrap">
-          <div class="containers-intro">
-            <h1>Containers</h1>
+          <div class="modal-intro">
+            <h1>Modals</h1>
             <p class="paragraph-wrapper">
-              Containers will help you align your content within a specified
-              width.Enter the Container Section, which is at the core of our
-              design philosophy. In our digital world, these adaptable
-              containers serve as the foundation for both structural and visual
-              harmony. Welcome to the hub of our design journey, whether you're
-              a developer figuring out our system or a designer looking for
-              consistency.
+              Greetings from our Modals Section, where targeted content and
+              smooth interactions meet. With our elegant and responsive modals,
+              which are made to precisely and elegantly convey important
+              information and actions, you can increase user engagement.
             </p>
           </div>
-          <div class="containers-content">
-            <h2>Implementation</h2>
-            <p class="paragraph-wrapper">
-              Containers are basic layout components in Immortal Design; they
-              are necessary for our default grid system. They function to keep
-              the content contained, padding it, and occasionally to center it.
-              Although Immortal Design containers allow for nesting, most
-              layouts do not require this extra layer of hierarchy.
-            </p>
-            <p class="paragraph-wrapper">
-              <strong
-                >The table below will show you how each container size
-                works.</strong
-              >
-            </p>
-            <table class="containers-table">
-              <thead>
-                <tr>
-                  <th>Container class</th>
-                  <th>Extra small &lt;570px</th>
-                  <th>Small &ge;570px</th>
-                  <th>Medium &ge;750px</th>
-                  <th>Large &ge;980px</th>
-                  <th>X-Large &ge;1150px</th>
-                  <th>XX-Large &ge;1370px</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>
-                    <code><b>.container</b></code>
-                  </td>
-                  <td>100%</td>
-                  <td>530px</td>
-                  <td>700px</td>
-                  <td>950px</td>
-                  <td>1100px</td>
-                  <td>1300px</td>
-                </tr>
-                <tr>
-                  <td>
-                    <code><b>.container-sm</b></code>
-                  </td>
-                  <td>100%</td>
-                  <td>530px</td>
-                  <td>700px</td>
-                  <td>950px</td>
-                  <td>1100px</td>
-                  <td>1300px</td>
-                </tr>
-                <tr>
-                  <td>
-                    <code><b>.container-md</b></code>
-                  </td>
-                  <td>100%</td>
-                  <td>100%</td>
-                  <td>700px</td>
-                  <td>950px</td>
-                  <td>1100px</td>
-                  <td>1300px</td>
-                </tr>
-                <tr>
-                  <td>
-                    <code><b>.container-lg</b></code>
-                  </td>
-                  <td>100%</td>
-                  <td>100%</td>
-                  <td>100%</td>
-                  <td>950px</td>
-                  <td>1100px</td>
-                  <td>1300px</td>
-                </tr>
-                <tr>
-                  <td>
-                    <code><b>.container-xl</b></code>
-                  </td>
-                  <td>100%</td>
-                  <td>100%</td>
-                  <td>100%</td>
-                  <td>100%</td>
-                  <td>1100px</td>
-                  <td>1300px</td>
-                </tr>
-                <tr>
-                  <td>
-                    <code><b>.container-xxl</b></code>
-                  </td>
-                  <td>100%</td>
-                  <td>100%</td>
-                  <td>100%</td>
-                  <td>100%</td>
-                  <td>100%</td>
-                  <td>1300px</td>
-                </tr>
-                <tr>
-                  <td>
-                    <code><b>.container-fluid</b></code>
-                  </td>
-                  <td>100%</td>
-                  <td>100%</td>
-                  <td>100%</td>
-                  <td>100%</td>
-                  <td>100%</td>
-                  <td>100%</td>
-                </tr>
-              </tbody>
-            </table>
-            <h2 class="mrt-4">Contianers Example:-</h2>
-            <div class="containers-example mrb-5">
-              <div class="example-header">
-                <h3>HTML</h3>
-                <div class="copy-icon" onclick="copyToClipboard()">
-<svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  class="bi bi-clipboard"
-                  viewBox="0 0 16 16">
-                  <path
-                    d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1z" />
-                  <path
-                    d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0z" />
-                </svg>
-</div>
-              </div>
-              <code>
-                &lt;div class="container"&gt;I am default container class, mt
-                max-width will change on different screen size.&lt;/div&gt;<br />
-                &lt;div class="container-sm"&gt;I will set the width to 100% for
-                screen sizes up to <b>570 pixels</b>.&lt;/div&gt;<br />
-                &lt;div class="container-md"&gt;I will set the width to 100% for
-                screen sizes up to <b>750 pixels</b>.&lt;/div&gt;<br />
-                &lt;div class="container-lg"&gt;I will set the width to 100% for
-                screen sizes up to <b>980 pixels</b>.&lt;/div&gt;<br />
-                &lt;div class="container-xl"&gt;I will set the width to 100% for
-                screen sizes up to <b>1150 pixels</b>.&lt;/div&gt;<br />
-                &lt;div class="container-xxl"&gt;I will set the width to 100%
-                for screen sizes up to <b>1370 pixels</b>.&lt;/div&gt;<br />
-              </code>
-            </div>
-          </div>
+          <div class="modal-content"></div>
         </div>
       </section>
     </main>
