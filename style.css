@@ -397,7 +397,8 @@ ul,
 .buttons-example,
 .cards-example,
 .carousel-example,
-.dropdown-example {
+.dropdown-example,
+.forms-example {
   background-color: rgb(50, 50, 50);
   color: var(--white);
   padding: 1rem;
@@ -1416,7 +1417,41 @@ padding: 5px 0;
   border-bottom: 2px solid var(--primary-color);
 }
 
+/* =============== FORMS ============== */
+.form div * {
+display: block;
+margin: 5px 0;
+}
 
+.form .form-input-email, .form .form-input-password, .form-dropdown{
+  padding: 5px 3px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 2px solid rgb(193, 193, 193);
+  outline: none;
+  width: 40%;
+}
+
+.form .btn, .form .form-dropdown{
+  margin:25px 0;
+}
+
+.form-placeholder div * {
+margin:20px 0;
+}
+
+.form-placeholder input::placeholder{
+  font-style: italic;
+}
+
+.flex{
+  display: flex;
+}
+
+.form input[type='checkbox'], .form input[type='radio']{
+  margin: 0 10px;
+
+}
 /* ================ FOOTER ==================*/
 .footer-container {
   margin-left: 310px;
