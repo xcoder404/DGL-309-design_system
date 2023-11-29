@@ -26,3 +26,20 @@ function toggleDropdown(button) {
   const dropdownOptions = button.nextElementSibling;
   dropdownOptions.style.display = dropdownOptions.style.display === 'none' ? 'block' : 'none';
 }
+
+const modal = document.getElementById('modal');
+const openModal = document.getElementById('modal-button');
+const closeModal = document.getElementById('modal-close');
+const closeIcon = document.querySelector('.modal-open .bi');
+
+openModal.addEventListener('click', () => {
+  modal.showModal();
+})
+
+closeModal.addEventListener('click', () =>{
+  modal.close();
+})
+
+closeIcon.addEventListener('click', () =>{
+  modal.close();
+})
