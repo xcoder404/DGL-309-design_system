@@ -200,7 +200,7 @@
             <div class="containers-example mrb-5">
               <div class="example-header">
                 <h3>HTML</h3>
-                <div class="copy-icon" onclick="copyToClipboard()">
+                <div class="copy-icon" data-section="section7" onclick="copyToClipboard('section7', this)">
 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -215,7 +215,7 @@
                 </svg>
 </div>
               </div>
-              <code>
+              <code id="section7">
                 &lt;div class="container"&gt;I am default container class, mt
                 max-width will change on different screen size.&lt;/div&gt;<br />
                 &lt;div class="container-sm"&gt;I will set the width to 100% for
