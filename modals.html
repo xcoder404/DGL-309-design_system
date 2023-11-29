@@ -18,7 +18,7 @@
 
     <title>Modals</title>
   </head>
-  <body>
+  <body class="overlay">
     <header class="header">
       <nav class="header__nav">
         <ul class="header__nav-list">
@@ -84,7 +84,171 @@
               information and actions, you can increase user engagement.
             </p>
           </div>
-          <div class="modal-content"></div>
+          <div class="modal-content">
+            <h2>Sample Modal</h2>
+            <div class="modal-block">
+              <div class="modal-header">
+                <h3>Modal title</h3>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-x-lg"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z" />
+                </svg>
+              </div>
+              <div class="modal-body">
+                <p>
+                 Lorem ipsum dolor sit, amet
+                  consectetur adipisicing elit. Accusantium magni corporis
+                  officia odio assumenda nemo veniam quidem mollitia placeat
+                  iusto distinctio vero provident, adipisci praesentium nihil
+                  neque, laboriosam eaque aliquam doloremque, explicabo
+                  necessitatibus eos! A eius maiores sunt voluptate explicabo.
+                </p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary">Cancel</button>
+                <button type="button" class="btn btn-primary">Submit</button>
+              </div>
+            </div>
+            <div class="modal-example mry-5">
+              <div class="example-header">
+                <h3>HTML</h3>
+                <div class="copy-icon" onclick="copyToClipboard()">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-clipboard"
+                    viewBox="0 0 16 16">
+                    <path
+                      d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1z" />
+                    <path
+                      d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0z" />
+                  </svg>
+                </div>
+              </div>
+              <code>
+                &lt;div class="modal-block"&gt;<br>
+                  &lt;div class="modal-header"&gt;<br>
+                    &lt;h2&gt;Modal title&lt;/h2&gt;<br>
+                    &lt;svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-x-lg"
+                      viewBox="0 0 16 16"&gt;<br>
+                      &lt;path
+                        d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z" /&gt;<br>
+                    &lt;/svg&gt;<br>
+                  &lt;/div&gt;<br>
+                  &lt;div class="modal-body"&gt;<br>
+                    &lt;p&gt;<br>
+                      Modal content goes here. Lorem ipsum dolor sit, amet
+                      consectetur adipisicing elit. Accusantium magni corporis
+                      officia odio assumenda nemo veniam quidem mollitia placeat
+                      iusto distinctio vero provident, adipisci praesentium nihil
+                      neque, laboriosam eaque aliquam doloremque, explicabo
+                      necessitatibus eos! A eius maiores sunt voluptate explicabo.
+                    &lt;/p&gt;<br>
+                  &lt;/div&gt;<br>
+                  &lt;div class="modal-footer"&gt;<br>
+                    &lt;button type="button" class="btn btn-secondary"&gt;Cancel&lt;/button&gt;<br>
+                    &lt;button type="button" class="btn btn-primary"&gt;Submit&lt;/button&gt;<br>
+                  &lt;/div&gt;<br>
+                &lt;/div&gt;<br>
+              </code>
+            </div>
+            <h2>Click on button to open modal</h2>
+            <button type="button" class="btn btn-primary"  id="modal-button" onclick="openModal()">Open Modal</button>
+            <dialog class="modal-open" id="modal">
+              <div class="modal-header">
+                <h3>Modal title</h3>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-x-lg"
+                  viewBox="0 0 16 16"
+                  >
+                  <path
+                    d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z" />
+                </svg>
+              </div>
+              <div class="modal-body">
+                <p>
+                   Lorem ipsum dolor sit, amet
+                  consectetur adipisicing elit. Accusantium magni corporis
+                  officia odio assumenda nemo veniam quidem mollitia placeat
+                  iusto distinctio vero provident, adipisci praesentium nihil
+                  neque, laboriosam eaque aliquam doloremque, explicabo
+                  necessitatibus eos! A eius maiores sunt voluptate explicabo.
+                </p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" id="modal-close" onclick="closeModal()">Cancel</button>
+                <button type="button" class="btn btn-primary">Submit</button>
+              </div>
+            </dialog>
+            <div class="modal-example mry-5">
+              <div class="example-header">
+                <h3>HTML</h3>
+                <div class="copy-icon" onclick="copyToClipboard()">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-clipboard"
+                    viewBox="0 0 16 16">
+                    <path
+                      d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1z" />
+                    <path
+                      d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0z" />
+                  </svg>
+                </div>
+              </div>
+              <code>
+                &lt;dialog class="modal-open" id="modal"&gt;<br>
+                  &lt;div class="modal-header"&gt;<br>
+                    &lt;h3&gt;Modal title&lt;/h3&gt;<br>
+                    &lt;svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-x-lg"
+                      viewBox="0 0 16 16"
+                      &gt;<br>
+                      &lt;path
+                        d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z" /&gt;<br>
+                    &lt;/svg&gt;<br>
+                  &lt;/div&gt;<br>
+                  &lt;div class="modal-body"&gt;<br>
+                    &lt;p&gt;<br>
+                       Lorem ipsum dolor sit, amet
+                      consectetur adipisicing elit. Accusantium magni corporis
+                      officia odio assumenda nemo veniam quidem mollitia placeat
+                      iusto distinctio vero provident, adipisci praesentium nihil
+                      neque, laboriosam eaque aliquam doloremque, explicabo
+                      necessitatibus eos! A eius maiores sunt voluptate explicabo.
+                    &lt;/p&gt;<br>
+                  &lt;/div&gt;<br>
+                  &lt;div class="modal-footer"&gt;<br>
+                    &lt;button type="button" class="btn btn-secondary" id="modal-close" onclick="closeModal()"&gt;Cancel&lt;/button&gt;<br>
+                    &lt;button type="button" class="btn btn-primary"&gt;Submit&lt;/button&gt;<br>
+                  &lt;/div&gt;<br>
+                &lt;/dialog&gt;<br>
+              </code>
+            </div>
+          </div>
         </div>
       </section>
     </main>
