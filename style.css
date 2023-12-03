@@ -1532,24 +1532,49 @@ input[type='checkbox']:last-of-type:checked ~ .accordion-para {
 }
 /* ============== TABLES ===============*/
 
-.tables table {
+.tables-demo,
+.tables-border,
+.tables-even,
+.tables-odd,
+.tables-noborder {
   width: 100%;
   border-collapse: collapse;
 }
-.tables tr {
+.tables-demo tr,
+.tables-border tr,
+.tables-even tr,
+.tables-odd tr{
   border-bottom: 1px solid rgb(193, 193, 193);
 }
-.tables th,
-.tables td {
+.tables-demo th,
+.tables-demo td,
+.tables-even th,
+.tables-even td,
+.tables-odd th,
+.tables-odd td,
+.tables-border th,
+.tables-border td,.tables-noborder th,
+.tables-noborder td  {
   padding: 10px;
   text-align: left;
 }
 
-.tables-odd .tables-body tr:nth-child(odd){
+.tables-odd .tables-body tr:nth-child(odd) {
   background-color: rgb(193, 193, 193);
 }
-.tables-even .tables-body tr:nth-child(even){
+.tables-even .tables-body tr:nth-child(even) {
   background-color: rgb(193, 193, 193);
+}
+
+.tables-border table,
+.tables-border tr,
+.tables-border td,
+.tables-border th {
+  border: 1px solid rgb(193, 193, 193);
+}
+
+.tables-noborder{
+  border:unset;
 }
 
 /* ================ FOOTER ==================*/
