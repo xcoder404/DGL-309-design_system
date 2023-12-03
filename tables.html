@@ -23,6 +23,16 @@
       <nav class="header__nav">
         <ul class="header__nav-list">
           <li class="header__nav-item">
+            <a href="style.css" class="header__nav-link" download>CSS File</a>
+          </li>
+          <li class="header__nav-item">
+            <a href="index.js" class="header__nav-link" download
+              >JavaScript File</a
+            >
+          </li>
+        </ul>
+        <ul class="header__nav-list">
+          <li class="header__nav-item">
             <a
               href="./assignment-3-redesign-xcoder404/index.html"
               target="_blank"
@@ -184,381 +194,385 @@
             </div>
             <h2>Table with colored odd rows</h2>
             <p class="paragraph-wrapper">
-                Add <b>".tables-odd"</b> class to <b>"table"</b> element to highlight odd rows.
+              Add <b>".tables-odd"</b> class to <b>"table"</b> element to
+              highlight odd rows.
             </p>
             <table class="tables-odd">
-                <thead class="tables-head">
-                  <tr>
-                    <th>Index</th>
-                    <th>First Name</th>
-                    <th>Last Name</th>
-                    <th>Age</th>
-                  </tr>
-                </thead>
-                <tbody class="tables-body">
-                  <tr>
-                    <td>#1</td>
-                    <td>Jhon</td>
-                    <td>Doe</td>
-                    <td>25</td>
-                  </tr>
-                  <tr>
-                    <td>#2</td>
-                    <td>Peter</td>
-                    <td>Parker</td>
-                    <td>23</td>
-                  </tr>
-                  <tr>
-                    <td>#3</td>
-                    <td>Steve</td>
-                    <td>Rogers</td>
-                    <td>35</td>
-                  </tr>
-                  <tr>
-                    <td>#4</td>
-                    <td>Tony</td>
-                    <td>Stark</td>
-                    <td>42</td>
-                  </tr>
-                </tbody>
-              </table>
-              <div class="tables-example mry-5">
-                <div class="example-header">
-                  <h3>HTML</h3>
-                  <div
-                    class="copy-icon"
-                    data-section="section49"
-                    onclick="copyToClipboard('section49', this)">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="16"
-                      height="16"
-                      fill="currentColor"
-                      class="bi bi-clipboard"
-                      viewBox="0 0 16 16">
-                      <path
-                        d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1z" />
-                      <path
-                        d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0z" />
-                    </svg>
-                  </div>
+              <thead class="tables-head">
+                <tr>
+                  <th>Index</th>
+                  <th>First Name</th>
+                  <th>Last Name</th>
+                  <th>Age</th>
+                </tr>
+              </thead>
+              <tbody class="tables-body">
+                <tr>
+                  <td>#1</td>
+                  <td>Jhon</td>
+                  <td>Doe</td>
+                  <td>25</td>
+                </tr>
+                <tr>
+                  <td>#2</td>
+                  <td>Peter</td>
+                  <td>Parker</td>
+                  <td>23</td>
+                </tr>
+                <tr>
+                  <td>#3</td>
+                  <td>Steve</td>
+                  <td>Rogers</td>
+                  <td>35</td>
+                </tr>
+                <tr>
+                  <td>#4</td>
+                  <td>Tony</td>
+                  <td>Stark</td>
+                  <td>42</td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="tables-example mry-5">
+              <div class="example-header">
+                <h3>HTML</h3>
+                <div
+                  class="copy-icon"
+                  data-section="section49"
+                  onclick="copyToClipboard('section49', this)">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-clipboard"
+                    viewBox="0 0 16 16">
+                    <path
+                      d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1z" />
+                    <path
+                      d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0z" />
+                  </svg>
                 </div>
-                <code id="section49">
-                  &lt;table class="tables-odd"&gt;<br />
-                  &lt;thead class="tables-head"&gt;<br />
-                  &lt;tr&gt;<br />
-                  &lt;th&gt;Index&lt;/th&gt;<br />
-                  &lt;th&gt;First Name&lt;/th&gt;<br />
-                  &lt;th&gt;Last Name&lt;/th&gt;<br />
-                  &lt;th&gt;Age&lt;/th&gt;<br />
-                  &lt;/tr&gt;<br />
-                  &lt;/thead&gt;<br />
-                  &lt;tbody class="tables-body"&gt;<br />
-                  &lt;tr&gt;<br />
-                  &lt;td&gt;#1&lt;/td&gt;<br />
-                  &lt;td&gt;Jhon&lt;/td&gt;<br />
-                  &lt;td&gt;Doe&lt;/td&gt;<br />
-                  &lt;td&gt;25&lt;/td&gt;<br />
-                  &lt;/tr&gt;<br />
-                  &lt;tr&gt;<br />
-                  &lt;td&gt;#2&lt;/td&gt;<br />
-                  &lt;td&gt;Peter&lt;/td&gt;<br />
-                  &lt;td&gt;Parker&lt;/td&gt;<br />
-                  &lt;td&gt;23&lt;/td&gt;<br />
-                  &lt;/tr&gt;<br />
-                  &lt;tr&gt;<br />
-                  &lt;td&gt;#3&lt;/td&gt;<br />
-                  &lt;td&gt;Steve&lt;/td&gt;<br />
-                  &lt;td&gt;Rogers&lt;/td&gt;<br />
-                  &lt;td&gt;35&lt;/td&gt;<br />
-                  &lt;/tr&gt;<br />
-                  &lt;/tbody&gt;<br />
-                  &lt;/table&gt;<br />
-                </code>
               </div>
-              <h2>Table with colored even rows</h2>
-              <p class="paragraph-wrapper">
-                  Add <b>".tables-even"</b> class to <b>"table"</b> element to highlight odd rows.
-              </p>
-              <table class="tables-even">
-                  <thead class="tables-head">
-                    <tr>
-                      <th>Index</th>
-                      <th>First Name</th>
-                      <th>Last Name</th>
-                      <th>Age</th>
-                    </tr>
-                  </thead>
-                  <tbody class="tables-body">
-                    <tr>
-                      <td>#1</td>
-                      <td>Jhon</td>
-                      <td>Doe</td>
-                      <td>25</td>
-                    </tr>
-                    <tr>
-                      <td>#2</td>
-                      <td>Peter</td>
-                      <td>Parker</td>
-                      <td>23</td>
-                    </tr>
-                    <tr>
-                      <td>#3</td>
-                      <td>Steve</td>
-                      <td>Rogers</td>
-                      <td>35</td>
-                    </tr>
-                    <tr>
-                      <td>#4</td>
-                      <td>Tony</td>
-                      <td>Stark</td>
-                      <td>42</td>
-                    </tr>
-                  </tbody>
-                </table>
-                <div class="tables-example mry-5">
-                  <div class="example-header">
-                    <h3>HTML</h3>
-                    <div
-                      class="copy-icon"
-                      data-section="section50"
-                      onclick="copyToClipboard('section50', this)">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="16"
-                        height="16"
-                        fill="currentColor"
-                        class="bi bi-clipboard"
-                        viewBox="0 0 16 16">
-                        <path
-                          d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1z" />
-                        <path
-                          d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0z" />
-                      </svg>
-                    </div>
-                  </div>
-                  <code id="section50">
-                    &lt;table class="tables-even"&gt;<br />
-                    &lt;thead class="tables-head"&gt;<br />
-                    &lt;tr&gt;<br />
-                    &lt;th&gt;Index&lt;/th&gt;<br />
-                    &lt;th&gt;First Name&lt;/th&gt;<br />
-                    &lt;th&gt;Last Name&lt;/th&gt;<br />
-                    &lt;th&gt;Age&lt;/th&gt;<br />
-                    &lt;/tr&gt;<br />
-                    &lt;/thead&gt;<br />
-                    &lt;tbody class="tables-body"&gt;<br />
-                    &lt;tr&gt;<br />
-                    &lt;td&gt;#1&lt;/td&gt;<br />
-                    &lt;td&gt;Jhon&lt;/td&gt;<br />
-                    &lt;td&gt;Doe&lt;/td&gt;<br />
-                    &lt;td&gt;25&lt;/td&gt;<br />
-                    &lt;/tr&gt;<br />
-                    &lt;tr&gt;<br />
-                    &lt;td&gt;#2&lt;/td&gt;<br />
-                    &lt;td&gt;Peter&lt;/td&gt;<br />
-                    &lt;td&gt;Parker&lt;/td&gt;<br />
-                    &lt;td&gt;23&lt;/td&gt;<br />
-                    &lt;/tr&gt;<br />
-                    &lt;tr&gt;<br />
-                    &lt;td&gt;#3&lt;/td&gt;<br />
-                    &lt;td&gt;Steve&lt;/td&gt;<br />
-                    &lt;td&gt;Rogers&lt;/td&gt;<br />
-                    &lt;td&gt;35&lt;/td&gt;<br />
-                    &lt;/tr&gt;<br />
-                    &lt;/tbody&gt;<br />
-                    &lt;/table&gt;<br />
-                  </code>
+              <code id="section49">
+                &lt;table class="tables-odd"&gt;<br />
+                &lt;thead class="tables-head"&gt;<br />
+                &lt;tr&gt;<br />
+                &lt;th&gt;Index&lt;/th&gt;<br />
+                &lt;th&gt;First Name&lt;/th&gt;<br />
+                &lt;th&gt;Last Name&lt;/th&gt;<br />
+                &lt;th&gt;Age&lt;/th&gt;<br />
+                &lt;/tr&gt;<br />
+                &lt;/thead&gt;<br />
+                &lt;tbody class="tables-body"&gt;<br />
+                &lt;tr&gt;<br />
+                &lt;td&gt;#1&lt;/td&gt;<br />
+                &lt;td&gt;Jhon&lt;/td&gt;<br />
+                &lt;td&gt;Doe&lt;/td&gt;<br />
+                &lt;td&gt;25&lt;/td&gt;<br />
+                &lt;/tr&gt;<br />
+                &lt;tr&gt;<br />
+                &lt;td&gt;#2&lt;/td&gt;<br />
+                &lt;td&gt;Peter&lt;/td&gt;<br />
+                &lt;td&gt;Parker&lt;/td&gt;<br />
+                &lt;td&gt;23&lt;/td&gt;<br />
+                &lt;/tr&gt;<br />
+                &lt;tr&gt;<br />
+                &lt;td&gt;#3&lt;/td&gt;<br />
+                &lt;td&gt;Steve&lt;/td&gt;<br />
+                &lt;td&gt;Rogers&lt;/td&gt;<br />
+                &lt;td&gt;35&lt;/td&gt;<br />
+                &lt;/tr&gt;<br />
+                &lt;/tbody&gt;<br />
+                &lt;/table&gt;<br />
+              </code>
+            </div>
+            <h2>Table with colored even rows</h2>
+            <p class="paragraph-wrapper">
+              Add <b>".tables-even"</b> class to <b>"table"</b> element to
+              highlight odd rows.
+            </p>
+            <table class="tables-even">
+              <thead class="tables-head">
+                <tr>
+                  <th>Index</th>
+                  <th>First Name</th>
+                  <th>Last Name</th>
+                  <th>Age</th>
+                </tr>
+              </thead>
+              <tbody class="tables-body">
+                <tr>
+                  <td>#1</td>
+                  <td>Jhon</td>
+                  <td>Doe</td>
+                  <td>25</td>
+                </tr>
+                <tr>
+                  <td>#2</td>
+                  <td>Peter</td>
+                  <td>Parker</td>
+                  <td>23</td>
+                </tr>
+                <tr>
+                  <td>#3</td>
+                  <td>Steve</td>
+                  <td>Rogers</td>
+                  <td>35</td>
+                </tr>
+                <tr>
+                  <td>#4</td>
+                  <td>Tony</td>
+                  <td>Stark</td>
+                  <td>42</td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="tables-example mry-5">
+              <div class="example-header">
+                <h3>HTML</h3>
+                <div
+                  class="copy-icon"
+                  data-section="section50"
+                  onclick="copyToClipboard('section50', this)">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-clipboard"
+                    viewBox="0 0 16 16">
+                    <path
+                      d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1z" />
+                    <path
+                      d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0z" />
+                  </svg>
                 </div>
-               
-                  <h2>Bordered table</h2>
-                  <p class="paragraph-wrapper">
-                      Add <b>".tables-border"</b> class to <b>"table"</b> element to get border around the table.
-                  </p>
-                  <table class="tables-border">
-                      <thead class="tables-head">
-                        <tr>
-                          <th>Index</th>
-                          <th>First Name</th>
-                          <th>Last Name</th>
-                          <th>Age</th>
-                        </tr>
-                      </thead>
-                      <tbody class="tables-body">
-                        <tr>
-                          <td>#1</td>
-                          <td>Jhon</td>
-                          <td>Doe</td>
-                          <td>25</td>
-                        </tr>
-                        <tr>
-                          <td>#2</td>
-                          <td>Peter</td>
-                          <td>Parker</td>
-                          <td>23</td>
-                        </tr>
-                        <tr>
-                          <td>#3</td>
-                          <td>Steve</td>
-                          <td>Rogers</td>
-                          <td>35</td>
-                        </tr>
-                        <tr>
-                          <td>#4</td>
-                          <td>Tony</td>
-                          <td>Stark</td>
-                          <td>42</td>
-                        </tr>
-                      </tbody>
-                    </table>
-                    <div class="tables-example mry-5">
-                      <div class="example-header">
-                        <h3>HTML</h3>
-                        <div
-                          class="copy-icon"
-                          data-section="section51"
-                          onclick="copyToClipboard('section51', this)">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="16"
-                            height="16"
-                            fill="currentColor"
-                            class="bi bi-clipboard"
-                            viewBox="0 0 16 16">
-                            <path
-                              d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1z" />
-                            <path
-                              d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0z" />
-                          </svg>
-                        </div>
-                      </div>
-                      <code id="section51">
-                        &lt;table class="tables-border"&gt;<br />
-                        &lt;thead class="tables-head"&gt;<br />
-                        &lt;tr&gt;<br />
-                        &lt;th&gt;Index&lt;/th&gt;<br />
-                        &lt;th&gt;First Name&lt;/th&gt;<br />
-                        &lt;th&gt;Last Name&lt;/th&gt;<br />
-                        &lt;th&gt;Age&lt;/th&gt;<br />
-                        &lt;/tr&gt;<br />
-                        &lt;/thead&gt;<br />
-                        &lt;tbody class="tables-body"&gt;<br />
-                        &lt;tr&gt;<br />
-                        &lt;td&gt;#1&lt;/td&gt;<br />
-                        &lt;td&gt;Jhon&lt;/td&gt;<br />
-                        &lt;td&gt;Doe&lt;/td&gt;<br />
-                        &lt;td&gt;25&lt;/td&gt;<br />
-                        &lt;/tr&gt;<br />
-                        &lt;tr&gt;<br />
-                        &lt;td&gt;#2&lt;/td&gt;<br />
-                        &lt;td&gt;Peter&lt;/td&gt;<br />
-                        &lt;td&gt;Parker&lt;/td&gt;<br />
-                        &lt;td&gt;23&lt;/td&gt;<br />
-                        &lt;/tr&gt;<br />
-                        &lt;tr&gt;<br />
-                        &lt;td&gt;#3&lt;/td&gt;<br />
-                        &lt;td&gt;Steve&lt;/td&gt;<br />
-                        &lt;td&gt;Rogers&lt;/td&gt;<br />
-                        &lt;td&gt;35&lt;/td&gt;<br />
-                        &lt;/tr&gt;<br />
-                        &lt;/tbody&gt;<br />
-                        &lt;/table&gt;<br />
-                      </code>
-                    </div>
-                    <h2>Table without border</h2>
-                    <p class="paragraph-wrapper">
-                        Add <b>".tables-noborder"</b> class to <b>"table"</b> element to remove border.
-                    </p>
-                    <table class="tables-noborder">
-                        <thead class="tables-head">
-                          <tr>
-                            <th>Index</th>
-                            <th>First Name</th>
-                            <th>Last Name</th>
-                            <th>Age</th>
-                          </tr>
-                        </thead>
-                        <tbody class="tables-body">
-                          <tr>
-                            <td>#1</td>
-                            <td>Jhon</td>
-                            <td>Doe</td>
-                            <td>25</td>
-                          </tr>
-                          <tr>
-                            <td>#2</td>
-                            <td>Peter</td>
-                            <td>Parker</td>
-                            <td>23</td>
-                          </tr>
-                          <tr>
-                            <td>#3</td>
-                            <td>Steve</td>
-                            <td>Rogers</td>
-                            <td>35</td>
-                          </tr>
-                          <tr>
-                            <td>#4</td>
-                            <td>Tony</td>
-                            <td>Stark</td>
-                            <td>42</td>
-                          </tr>
-                        </tbody>
-                      </table>
-                      <div class="tables-example mry-5">
-                        <div class="example-header">
-                          <h3>HTML</h3>
-                          <div
-                            class="copy-icon"
-                            data-section="section52"
-                            onclick="copyToClipboard('section52', this)">
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              width="16"
-                              height="16"
-                              fill="currentColor"
-                              class="bi bi-clipboard"
-                              viewBox="0 0 16 16">
-                              <path
-                                d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1z" />
-                              <path
-                                d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0z" />
-                            </svg>
-                          </div>
-                        </div>
-                        <code id="section52">
-                          &lt;table class="tables-noborder"&gt;<br />
-                          &lt;thead class="tables-head"&gt;<br />
-                          &lt;tr&gt;<br />
-                          &lt;th&gt;Index&lt;/th&gt;<br />
-                          &lt;th&gt;First Name&lt;/th&gt;<br />
-                          &lt;th&gt;Last Name&lt;/th&gt;<br />
-                          &lt;th&gt;Age&lt;/th&gt;<br />
-                          &lt;/tr&gt;<br />
-                          &lt;/thead&gt;<br />
-                          &lt;tbody class="tables-body"&gt;<br />
-                          &lt;tr&gt;<br />
-                          &lt;td&gt;#1&lt;/td&gt;<br />
-                          &lt;td&gt;Jhon&lt;/td&gt;<br />
-                          &lt;td&gt;Doe&lt;/td&gt;<br />
-                          &lt;td&gt;25&lt;/td&gt;<br />
-                          &lt;/tr&gt;<br />
-                          &lt;tr&gt;<br />
-                          &lt;td&gt;#2&lt;/td&gt;<br />
-                          &lt;td&gt;Peter&lt;/td&gt;<br />
-                          &lt;td&gt;Parker&lt;/td&gt;<br />
-                          &lt;td&gt;23&lt;/td&gt;<br />
-                          &lt;/tr&gt;<br />
-                          &lt;tr&gt;<br />
-                          &lt;td&gt;#3&lt;/td&gt;<br />
-                          &lt;td&gt;Steve&lt;/td&gt;<br />
-                          &lt;td&gt;Rogers&lt;/td&gt;<br />
-                          &lt;td&gt;35&lt;/td&gt;<br />
-                          &lt;/tr&gt;<br />
-                          &lt;/tbody&gt;<br />
-                          &lt;/table&gt;<br />
-                        </code>
-                      </div>
+              </div>
+              <code id="section50">
+                &lt;table class="tables-even"&gt;<br />
+                &lt;thead class="tables-head"&gt;<br />
+                &lt;tr&gt;<br />
+                &lt;th&gt;Index&lt;/th&gt;<br />
+                &lt;th&gt;First Name&lt;/th&gt;<br />
+                &lt;th&gt;Last Name&lt;/th&gt;<br />
+                &lt;th&gt;Age&lt;/th&gt;<br />
+                &lt;/tr&gt;<br />
+                &lt;/thead&gt;<br />
+                &lt;tbody class="tables-body"&gt;<br />
+                &lt;tr&gt;<br />
+                &lt;td&gt;#1&lt;/td&gt;<br />
+                &lt;td&gt;Jhon&lt;/td&gt;<br />
+                &lt;td&gt;Doe&lt;/td&gt;<br />
+                &lt;td&gt;25&lt;/td&gt;<br />
+                &lt;/tr&gt;<br />
+                &lt;tr&gt;<br />
+                &lt;td&gt;#2&lt;/td&gt;<br />
+                &lt;td&gt;Peter&lt;/td&gt;<br />
+                &lt;td&gt;Parker&lt;/td&gt;<br />
+                &lt;td&gt;23&lt;/td&gt;<br />
+                &lt;/tr&gt;<br />
+                &lt;tr&gt;<br />
+                &lt;td&gt;#3&lt;/td&gt;<br />
+                &lt;td&gt;Steve&lt;/td&gt;<br />
+                &lt;td&gt;Rogers&lt;/td&gt;<br />
+                &lt;td&gt;35&lt;/td&gt;<br />
+                &lt;/tr&gt;<br />
+                &lt;/tbody&gt;<br />
+                &lt;/table&gt;<br />
+              </code>
+            </div>
+
+            <h2>Bordered table</h2>
+            <p class="paragraph-wrapper">
+              Add <b>".tables-border"</b> class to <b>"table"</b> element to get
+              border around the table.
+            </p>
+            <table class="tables-border">
+              <thead class="tables-head">
+                <tr>
+                  <th>Index</th>
+                  <th>First Name</th>
+                  <th>Last Name</th>
+                  <th>Age</th>
+                </tr>
+              </thead>
+              <tbody class="tables-body">
+                <tr>
+                  <td>#1</td>
+                  <td>Jhon</td>
+                  <td>Doe</td>
+                  <td>25</td>
+                </tr>
+                <tr>
+                  <td>#2</td>
+                  <td>Peter</td>
+                  <td>Parker</td>
+                  <td>23</td>
+                </tr>
+                <tr>
+                  <td>#3</td>
+                  <td>Steve</td>
+                  <td>Rogers</td>
+                  <td>35</td>
+                </tr>
+                <tr>
+                  <td>#4</td>
+                  <td>Tony</td>
+                  <td>Stark</td>
+                  <td>42</td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="tables-example mry-5">
+              <div class="example-header">
+                <h3>HTML</h3>
+                <div
+                  class="copy-icon"
+                  data-section="section51"
+                  onclick="copyToClipboard('section51', this)">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-clipboard"
+                    viewBox="0 0 16 16">
+                    <path
+                      d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1z" />
+                    <path
+                      d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0z" />
+                  </svg>
+                </div>
+              </div>
+              <code id="section51">
+                &lt;table class="tables-border"&gt;<br />
+                &lt;thead class="tables-head"&gt;<br />
+                &lt;tr&gt;<br />
+                &lt;th&gt;Index&lt;/th&gt;<br />
+                &lt;th&gt;First Name&lt;/th&gt;<br />
+                &lt;th&gt;Last Name&lt;/th&gt;<br />
+                &lt;th&gt;Age&lt;/th&gt;<br />
+                &lt;/tr&gt;<br />
+                &lt;/thead&gt;<br />
+                &lt;tbody class="tables-body"&gt;<br />
+                &lt;tr&gt;<br />
+                &lt;td&gt;#1&lt;/td&gt;<br />
+                &lt;td&gt;Jhon&lt;/td&gt;<br />
+                &lt;td&gt;Doe&lt;/td&gt;<br />
+                &lt;td&gt;25&lt;/td&gt;<br />
+                &lt;/tr&gt;<br />
+                &lt;tr&gt;<br />
+                &lt;td&gt;#2&lt;/td&gt;<br />
+                &lt;td&gt;Peter&lt;/td&gt;<br />
+                &lt;td&gt;Parker&lt;/td&gt;<br />
+                &lt;td&gt;23&lt;/td&gt;<br />
+                &lt;/tr&gt;<br />
+                &lt;tr&gt;<br />
+                &lt;td&gt;#3&lt;/td&gt;<br />
+                &lt;td&gt;Steve&lt;/td&gt;<br />
+                &lt;td&gt;Rogers&lt;/td&gt;<br />
+                &lt;td&gt;35&lt;/td&gt;<br />
+                &lt;/tr&gt;<br />
+                &lt;/tbody&gt;<br />
+                &lt;/table&gt;<br />
+              </code>
+            </div>
+            <h2>Table without border</h2>
+            <p class="paragraph-wrapper">
+              Add <b>".tables-noborder"</b> class to <b>"table"</b> element to
+              remove border.
+            </p>
+            <table class="tables-noborder">
+              <thead class="tables-head">
+                <tr>
+                  <th>Index</th>
+                  <th>First Name</th>
+                  <th>Last Name</th>
+                  <th>Age</th>
+                </tr>
+              </thead>
+              <tbody class="tables-body">
+                <tr>
+                  <td>#1</td>
+                  <td>Jhon</td>
+                  <td>Doe</td>
+                  <td>25</td>
+                </tr>
+                <tr>
+                  <td>#2</td>
+                  <td>Peter</td>
+                  <td>Parker</td>
+                  <td>23</td>
+                </tr>
+                <tr>
+                  <td>#3</td>
+                  <td>Steve</td>
+                  <td>Rogers</td>
+                  <td>35</td>
+                </tr>
+                <tr>
+                  <td>#4</td>
+                  <td>Tony</td>
+                  <td>Stark</td>
+                  <td>42</td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="tables-example mry-5">
+              <div class="example-header">
+                <h3>HTML</h3>
+                <div
+                  class="copy-icon"
+                  data-section="section52"
+                  onclick="copyToClipboard('section52', this)">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-clipboard"
+                    viewBox="0 0 16 16">
+                    <path
+                      d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1z" />
+                    <path
+                      d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0z" />
+                  </svg>
+                </div>
+              </div>
+              <code id="section52">
+                &lt;table class="tables-noborder"&gt;<br />
+                &lt;thead class="tables-head"&gt;<br />
+                &lt;tr&gt;<br />
+                &lt;th&gt;Index&lt;/th&gt;<br />
+                &lt;th&gt;First Name&lt;/th&gt;<br />
+                &lt;th&gt;Last Name&lt;/th&gt;<br />
+                &lt;th&gt;Age&lt;/th&gt;<br />
+                &lt;/tr&gt;<br />
+                &lt;/thead&gt;<br />
+                &lt;tbody class="tables-body"&gt;<br />
+                &lt;tr&gt;<br />
+                &lt;td&gt;#1&lt;/td&gt;<br />
+                &lt;td&gt;Jhon&lt;/td&gt;<br />
+                &lt;td&gt;Doe&lt;/td&gt;<br />
+                &lt;td&gt;25&lt;/td&gt;<br />
+                &lt;/tr&gt;<br />
+                &lt;tr&gt;<br />
+                &lt;td&gt;#2&lt;/td&gt;<br />
+                &lt;td&gt;Peter&lt;/td&gt;<br />
+                &lt;td&gt;Parker&lt;/td&gt;<br />
+                &lt;td&gt;23&lt;/td&gt;<br />
+                &lt;/tr&gt;<br />
+                &lt;tr&gt;<br />
+                &lt;td&gt;#3&lt;/td&gt;<br />
+                &lt;td&gt;Steve&lt;/td&gt;<br />
+                &lt;td&gt;Rogers&lt;/td&gt;<br />
+                &lt;td&gt;35&lt;/td&gt;<br />
+                &lt;/tr&gt;<br />
+                &lt;/tbody&gt;<br />
+                &lt;/table&gt;<br />
+              </code>
+            </div>
           </div>
         </div>
       </section>
