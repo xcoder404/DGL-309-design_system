@@ -54,7 +54,7 @@ h1 {
 .header {
   background-color: var(--primary-color);
   height: 70px;
-  
+
   width: 100vw;
   position: fixed;
   align-items: center;
@@ -62,20 +62,21 @@ h1 {
   flex-direction: row-reverse;
 }
 .header__nav {
-  position: relative;
   display: flex;
+  position: relative;
+
   padding: 20px 20px 20px 0;
   justify-content: space-between;
 }
 .header__nav-list {
-  list-style-type: none;
-  
   display: flex;
-  
+
+  list-style-type: none;
+
   justify-content: center;
 }
 
-.header__nav-list li{
+.header__nav-list li {
   padding: 0 10px;
 }
 .header__nav-link {
@@ -819,11 +820,12 @@ ul,
 }
 
 .grids-demo div {
+  display: flex;
+
   border: 1px solid black;
   background-color: var(--primary-color);
   color: var(--white);
   border-radius: 5px;
-  display: flex;
   align-items: center;
   justify-content: center;
 }
@@ -1387,11 +1389,11 @@ input[type='checkbox']:last-of-type:checked ~ .accordion-para {
 }
 
 .carousel-button {
+  display: flex;
   position: absolute;
   top: 45%;
   left: 5%;
   width: 90%;
-  display: flex;
   justify-content: space-between;
 }
 
@@ -1426,8 +1428,9 @@ input[type='checkbox']:last-of-type:checked ~ .accordion-para {
 }
 
 .dropdown-rotate {
-  transform: rotate(-90deg);
   display: inline-block;
+
+  transform: rotate(-90deg);
 }
 
 .dropdown-options {
@@ -1530,8 +1533,9 @@ input[type='checkbox']:last-of-type:checked ~ .accordion-para {
   padding: 20px;
 }
 .modal-footer {
-  border-top: 2px solid rgb(193, 193, 193);
   display: flex;
+
+  border-top: 2px solid rgb(193, 193, 193);
   justify-content: flex-end;
   padding: 15px;
   gap: 30px;
@@ -1553,7 +1557,7 @@ input[type='checkbox']:last-of-type:checked ~ .accordion-para {
 .tables-demo tr,
 .tables-border tr,
 .tables-even tr,
-.tables-odd tr{
+.tables-odd tr {
   border-bottom: 1px solid rgb(193, 193, 193);
 }
 .tables-demo th,
@@ -1563,8 +1567,9 @@ input[type='checkbox']:last-of-type:checked ~ .accordion-para {
 .tables-odd th,
 .tables-odd td,
 .tables-border th,
-.tables-border td,.tables-noborder th,
-.tables-noborder td  {
+.tables-border td,
+.tables-noborder th,
+.tables-noborder td {
   padding: 10px;
   text-align: left;
 }
@@ -1583,8 +1588,8 @@ input[type='checkbox']:last-of-type:checked ~ .accordion-para {
   border: 1px solid rgb(193, 193, 193);
 }
 
-.tables-noborder{
-  border:unset;
+.tables-noborder {
+  border: unset;
 }
 
 /* ================ FOOTER ==================*/
@@ -1600,9 +1605,10 @@ input[type='checkbox']:last-of-type:checked ~ .accordion-para {
   text-align: center;
 }
 .footer-content {
+  display: flex;
+
   margin: 0 50px 0 90px;
   padding-top: 50px;
-  display: flex;
   justify-content: space-around;
 }
 .footer-contact {
@@ -1787,8 +1793,8 @@ input[type='checkbox']:last-of-type:checked ~ .accordion-para {
     width: 80%;
   }
 
-  .header__nav{
-    padding:12px 0 0 0;
+  .header__nav {
+    padding: 12px 0 0 0;
   }
 }
 
@@ -1916,21 +1922,20 @@ input[type='checkbox']:last-of-type:checked ~ .accordion-para {
   .modal-open {
     width: 100%;
   }
-  
-.header__nav{
-  padding: unset;
-  padding-bottom: 10px;
 
-}
-  .header__nav .header__nav-list:nth-child(1){
+  .header__nav {
+    padding: unset;
+    padding-bottom: 10px;
+  }
+  .header__nav .header__nav-list:nth-child(1) {
     flex-direction: column;
   }
 
   .header__nav-list li {
     padding: 0 20px;
-}
+  }
 
-.header__nav-link{
-  font-size: 1rem;
-}
+  .header__nav-link {
+    font-size: 1rem;
+  }
 }
