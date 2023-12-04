@@ -245,6 +245,13 @@ h1 {
 .swatch-5 {
   background-color: var(--secondary-color);
 }
+.swatch-14{
+  background-color: #007bff;
+}
+
+.swatch-15{
+  background-color: #c1c1c1;
+}
 
 /* ================= 5. IMAGES ================== */
 
@@ -1968,4 +1975,23 @@ input[type='checkbox']:last-of-type:checked ~ .accordion-para {
   .header__nav-link {
     font-size: 1rem;
   }
+
+  .typography-grid div:nth-of-type(7),
+  .typography-grid div:nth-of-type(10),
+  .typography-grid div:nth-of-type(13),
+  .typography-grid div:nth-of-type(16),
+  .typography-grid div:nth-of-type(19),
+  .typography-grid div:nth-of-type(22)
+  {
+    margin-top: 30px;
+  }
+
+  .typography-grid h3, .typography-grid h2, .typography-grid p{
+    margin-bottom: unset;
+  }
+
+
+
 }
+
+
