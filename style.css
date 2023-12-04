@@ -1,3 +1,33 @@
+/* =================== CSS MENU ============== 
+
+  1. GLOBAL STYLE
+  2. HEADER
+  3. HORIZONTAL NAVBAR
+  4. COLORS
+  5. IMAGES
+  6. SPACING
+  7. SPACE GAP
+  8. TYPOGRAPHY
+  9. CONTAINERS
+  10. GRID
+  11. BREADCRUMBS
+  12. PAGINATION
+  13. NAVIGATION
+  14. VERTICAL NAVIGATION BAR
+  15. ACCORDION
+  16. BUTTONS
+  17. CARDS
+  18. CAROUSEL
+  19. DROPDOWN
+  20. FORMS
+  21. MODALS
+  22. TABLES
+  23. FOOTER
+  24. MEDIA QUERIES
+*/
+
+/* ======================= 1. GLOBAL STYLE ===========*/
+
 *,
 *::after,
 *::before {
@@ -49,7 +79,7 @@ h1 {
 .copy-icon {
   cursor: pointer;
 }
-/* =============== A. Header =============== */
+/* =============== 2. HEADER =============== */
 
 .header {
   background-color: var(--primary-color);
@@ -90,7 +120,7 @@ h1 {
   border-bottom: 2px solid var(--white);
 }
 
-/* =============== B. Horizontal navbar ============== */
+/* =============== 3. HORIZONTAL NAVBAR ============== */
 
 .vertical-nav {
   height: 100vh;
@@ -152,7 +182,7 @@ h1 {
   content: '\2715';
 }
 
-/*================ C. Colors ================*/
+/*================ 4. COLORS ================*/
 
 .colors-table {
   text-align: left;
@@ -216,7 +246,7 @@ h1 {
   background-color: var(--secondary-color);
 }
 
-/* ================= D. Images ================== */
+/* ================= 5. IMAGES ================== */
 
 .images-grid {
   display: grid;
@@ -268,7 +298,7 @@ h1 {
   width: 200px;
 }
 
-/* =================== Spacing =================== */
+/* =================== 6. SPACING =================== */
 .space .container-wrap {
   height: 3700px;
 }
@@ -328,7 +358,7 @@ ul,
   max-width: 100%;
 }
 
-/* ================= SPACE GAP =============== */
+/* ================= 7. SPACE GAP =============== */
 
 .space-grid {
   display: grid;
@@ -717,7 +747,7 @@ ul,
 .text-dark {
   color: var(--black);
 }
-/* ================ Typography ================ */
+/* ================ 8. TYPOGRAPHY ================ */
 
 .typography-grid {
   display: grid;
@@ -742,7 +772,7 @@ ul,
   text-align: right;
 }
 
-/* =================== CONTAINERS =============== */
+/* =================== 9. CONTAINERS =============== */
 .containers-table,
 .containers-table tbody {
   width: 100%;
@@ -810,7 +840,7 @@ ul,
   }
 }
 
-/* ======================== GRID ================  */
+/* ======================== 10. GRID ================  */
 
 .grids-demo {
   display: grid;
@@ -948,7 +978,7 @@ ul,
   grid-row: span 2;
 }
 
-/* ================= BREADCRUMBS ============== */
+/* ================= 11. BREADCRUMBS ============== */
 
 .breadcrumb-links {
   font-size: 14px;
@@ -973,7 +1003,7 @@ ul,
   color: #555;
 }
 
-/* ====================== PAGINATION ================ */
+/* ====================== 12. PAGINATION ================ */
 
 .pagination-center {
   display: flex;
@@ -1011,7 +1041,7 @@ ul,
   border-color: #007bff;
 }
 
-/* ================= NAVIGATION ============== */
+/* ================= 13. NAVIGATION ============== */
 
 .navigation-list {
   display: flex;
@@ -1083,7 +1113,7 @@ ul,
 .navigation-display .navigation-list a {
   padding: 5px 15px;
 }
-/* ============== VERTICAL NAVIGATION BAR ================ */
+/* ============== 14. VERTICAL NAVIGATION BAR ================ */
 
 .verticalnav-demo {
   max-width: 350px;
@@ -1142,7 +1172,7 @@ ul,
   border-bottom: unset;
 }
 
-/* =================== ACCORDION ================= */
+/* =================== 15. ACCORDION ================= */
 
 .accordion-label,
 .accordion-arrow,
@@ -1265,7 +1295,7 @@ input[type='checkbox']:last-of-type:checked ~ .accordion-para {
   border-radius: 0 0 5px 5px;
 }
 
-/* ================ BUTTONS ==================*/
+/* ================ 16. BUTTONS ==================*/
 
 .btn {
   padding: 10px 20px;
@@ -1322,7 +1352,7 @@ input[type='checkbox']:last-of-type:checked ~ .accordion-para {
   border-radius: 50px;
 }
 
-/* ================= CARDS ================*/
+/* ================= 17. CARDS ================*/
 
 .card-demo {
   display: flex;
@@ -1353,7 +1383,7 @@ input[type='checkbox']:last-of-type:checked ~ .accordion-para {
   float: right;
 }
 
-/* ============== CAROUSEL =============== */
+/* ============== 18. CAROUSEL =============== */
 
 .carousel-container {
   padding: 2rem;
@@ -1419,7 +1449,7 @@ input[type='checkbox']:last-of-type:checked ~ .accordion-para {
   background-color: rgba(255, 255, 255, 0.6);
 }
 
-/* ================ DROPDOWN ============== */
+/* ================ 19. DROPDOWN ============== */
 
 .dropdown-btn {
   padding-right: 40px;
@@ -1460,7 +1490,7 @@ input[type='checkbox']:last-of-type:checked ~ .accordion-para {
   border-bottom: 2px solid var(--primary-color);
 }
 
-/* =============== FORMS ============== */
+/* =============== 20. FORMS ============== */
 .form div * {
   display: block;
   margin: 5px 0;
@@ -1499,7 +1529,7 @@ input[type='checkbox']:last-of-type:checked ~ .accordion-para {
   margin: 0 10px;
 }
 
-/* =============== MODALS ================ */
+/* =============== 21. MODALS ================ */
 
 .modal-block,
 .modal-open {
@@ -1544,7 +1574,7 @@ input[type='checkbox']:last-of-type:checked ~ .accordion-para {
 .bi {
   cursor: pointer;
 }
-/* ============== TABLES ===============*/
+/* ============== 22. TABLES ===============*/
 
 .tables-demo,
 .tables-border,
@@ -1592,7 +1622,7 @@ input[type='checkbox']:last-of-type:checked ~ .accordion-para {
   border: unset;
 }
 
-/* ================ FOOTER ==================*/
+/* ================ 23. FOOTER ==================*/
 .footer-container {
   margin-left: 310px;
   background-color: var(--primary-color);
@@ -1642,7 +1672,7 @@ input[type='checkbox']:last-of-type:checked ~ .accordion-para {
   list-style-type: none;
 }
 
-/* =================== Media queries ================*/
+/* =================== 24. MEDIA QUERIES ================*/
 
 @media screen and (max-width: 1024px) {
   .container-wrap {
