@@ -1786,6 +1786,10 @@ input[type='checkbox']:last-of-type:checked ~ .accordion-para {
   .modal-open {
     width: 80%;
   }
+
+  .header__nav{
+    padding:12px 0 0 0;
+  }
 }
 
 @media screen and (max-width: 426px) {
@@ -1912,4 +1916,21 @@ input[type='checkbox']:last-of-type:checked ~ .accordion-para {
   .modal-open {
     width: 100%;
   }
+  
+.header__nav{
+  padding: unset;
+  padding-bottom: 10px;
+
+}
+  .header__nav .header__nav-list:nth-child(1){
+    flex-direction: column;
+  }
+
+  .header__nav-list li {
+    padding: 0 20px;
+}
+
+.header__nav-link{
+  font-size: 1rem;
+}
 }
