@@ -1990,6 +1990,11 @@ input[type='checkbox']:last-of-type:checked ~ .accordion-para {
     margin-bottom: unset;
   }
 
+  .card-button .btn{
+    padding: 5px 10px;
+    font-size: .85rem;
+  }
+
 
 
 }
